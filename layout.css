@@ -380,9 +380,94 @@ body {
     left: 1506px;
 }
 
-asdasdasd.asdasdas.asdasdas.adasd
 
 
+.frame-5 {
+    width: 1920px;
+    height: 2727px;
+    position: absolute;
+    top: 4242px;
+}
+.frame-5-title {
+    font-size: 80px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.frame-5-comm {
+    font-size: 32px;
+    position: absolute;
+    top: 217px;
+    left: 200px;
+}
+.frame-5-personal-project {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: absolute;
+    top: 317px;
+    left: 200px;    
+}
+.frame-5-public-project {
+    text-transform: uppercase;
+    position: absolute;
+    top: 317px;
+    left: 428px;
+}
+.frame-5-object-info {
+    font-size: 32px;
+    line-height: 50px;
+    text-transform: uppercase;
+    gap: 20px;
+}
+.frame-5-object-info p {
+    padding-top: 20px;
+}
+.frame-5-adres-object {
+    color: #888;
+}
+.frame-5-lookfull-project {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.frame-5-1object {
+    position: absolute;
+    top: 409px;
+    left: 200px;
+}
+
+.frame-5-2object {
+    position: absolute;
+    top: 409px;
+    left: 975px;
+}
+
+.frame-5-3object {
+    position: absolute;
+    top: 1483px;
+    left: 200px;
+}
+.frame-5-4object {
+    position: absolute;
+    top: 1483px;
+    left: 975px;
+}
+
+.frame-5-ellipce {
+    position: absolute;
+    top: 223px;
+    left: 1534px;
+}
+.frame-5-line {
+    position: absolute;
+    top: 1049px;
+    left: 1549.13px;
+    z-index: -1;
+}
+.frame-5-all-project {
+    position: absolute;
+    top: 2557px;
+}
 
 
 
