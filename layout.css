@@ -835,6 +835,60 @@ body {
         left: 928px;
     }
 
+
+    .frame-5 {
+        position: absolute;
+        top: 2612px;
+    }
+    .frame-5-1object-info {
+        position: absolute;
+        top: 710px;
+        left: 0;
+    }
+    .frame-5-3object {
+        position: absolute;
+        top: 1483px;
+    }
+    .frame-5-3object-info {
+        position: absolute;
+        top: 710px;
+        left: 0;
+    }
+    .frame-5-2object {
+        position: absolute;
+        top: 2558px;
+    }
+    .frame-5-2object-info {
+        position: absolute;
+        top: 710px;
+        left: 0;
+    }
+    .frame-5-4object {
+        position: absolute;
+        top: 3631px;
+    }
+    .frame-5-4object-info {
+        position: absolute;
+        top: 710px;
+        left: 0;
+    }
+    .frame-5-all-project {
+        position: absolute;
+        top: 4705px;
+    }
+    .frame-5-ellipce {
+        display: block;
+        position: absolute;
+        top: 1300px;
+        left: 643px;
+    }
+    .frame-5-line {
+        display: block;
+        position: absolute;
+        top: 3205px;
+        left: 700px;
+    }
+
 }
  
 
