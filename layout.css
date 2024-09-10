@@ -1367,6 +1367,63 @@ body {
     }
 
 
+
+    .frame-5 {
+        position: absolute;
+        top: 2282px;
+    }
+    .frame-5-title {
+        position: absolute;
+        left: 30px;
+    }
+    .frame-5-comm {
+        position: absolute;
+        left: 30px;
+    }
+    .frame-5-personal-project {
+        position: absolute;
+        left: 30px;
+    }
+    .frame-5-public-project {
+        position: absolute;
+        left: 140px;
+    }
+    .frame-5-1object {
+        position: absolute;
+        left: 25px;
+    }
+    .frame-5-2object {
+        position: absolute;
+        top: 1188px;
+        left: 25px;
+    }
+    .frame-5-3object {
+        position: absolute;
+        left: 25px;
+    }
+    .frame-5-4object {
+        position: absolute;
+        top: 1660px;
+        left: 25px;
+    }
+    .frame-5-ellipce-mini {
+        position: absolute;
+        top: 650px;
+        left: 280px;
+    }
+    .frame-5-all-project {
+        position: absolute;
+        top: 2120px;
+    }
+    .frame-5-line-mini {
+        display: block;
+        position: absolute;
+        top: 1285px;
+        left: 375px;
+        z-index: -1;
+
+    }
+
 }
 
 
@@ -1374,6 +1431,3 @@ body {
 
 
 
-@media 375px {
-    
-}
