@@ -468,6 +468,10 @@ body {
     position: absolute;
     top: 2557px;
 }
+.frame-5-all-project img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -598,6 +602,56 @@ body {
         position: absolute;
         top: 611px;
         left: 566px;
+    }
+
+
+    .frame-5 {
+        position: absolute;
+        top: 3365px;
+    }
+    .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object {
+        position: absolute;
+        left: 100px;
+    }
+    .frame-5-public-project {
+        position: absolute;
+        left: 328px;
+    }
+    .frame-5-2object {       
+        top: 2009px;
+    }
+    .frame-5-2object-info {
+        position: absolute;
+        top: 100px;
+        left: 900px;
+    }
+    .frame-5-3object {
+        top: 1209px;
+    }
+    .frame-5-3object-info {
+        position: absolute;
+        top: 100px;
+        left: 900px;
+    }
+    .frame-5-4object {
+        top: 2809px;
+    }
+    .frame-5-4object-info {
+        position: absolute;
+        top: 100px;
+        left: 900px;
+    }
+    .frame-5-ellipce, .frame-5-line {
+        display: none;
+    }
+    .frame-5-1object-info {
+        position: absolute;
+        top: 100px;
+        left: 900px;
+    }
+    .frame-5-all-project {
+        position: absolute;
+        top: 3609px;
     }
 
 }
