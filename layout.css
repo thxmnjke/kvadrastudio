@@ -1,18 +1,14 @@
 * {
-    /* position: relative; */
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     overflow-x: hidden;
 }
-
 @font-face {
     font-family: 'Proxima Nova';
     src: url(proxima-nova-condensed-regular.ttf);
-    
 }
  @font-face {
     font-family: 'AshleyCapitaliSofia';
@@ -33,146 +29,111 @@ body {
     background-color: #000;
     border-radius: 50%;
 }
-
+.header-container, .header-container-in, .header-about, .header-left, .header-right, .header-adress, .header-phone, .header-nav, 
+.main-container, .frame-1-project, .pic-play-project, .frame-1-price-project, .frame-1-price-radius {
+    display: flex;
+}
+.header-container-in, .main-container, .frame-1-project, .pic-play-project, .frame-1-price-project, .frame-1-price-radius {
+    justify-content: center;
+}
+.header-about, .header-nav {
+    justify-content: space-between;
+}
+.header-container-in, .header-about, .header-left, .header-right, .header-nav, .frame-1-project, 
+.pic-play-project, .frame-1-price-project, .frame-1-price-radius {
+    align-items: center;
+}
 .header-container {
     max-width: 1920px;
     margin: 0 auto;
-    display: flex;
-    /* align-items: center;
-    justify-content: center;
-    position: relative; */
 }
-
 .header-container-in {
     width: 1520px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-
 .header-about {
     width: 100%;
     color: #333333;
-    padding-top: 26px;
-    padding-bottom: 30px;
+    padding: 26px 0 30px 0;
     border-bottom: 1px solid #999999;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+}
+.header-left, .header-right {
+    gap: 50px;
+    margin: 0;
 }
 .header-left {
     width: 498px;
-    gap: 50px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    
 }
-.header-right {
-    display: flex;
-    margin: 0;
-    gap: 50px;
-    align-items: center;
+.header-adress, .header-phone {
+    flex-wrap: wrap;
 }
 .header-adress {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 10px;
 }
 .header-phone {
-    display: flex;
-    flex-wrap: wrap;
     gap: 10px;
 }
 .call-me {
     border: 1px solid #333333;
     padding: 10px 30px;
-    
     text-align: center;
 }
-.header-logo1 {
+.header-logo1, .header-menu, .frame-1-mini-img {
     display: none;
 }
-.header-menu {
-    display: none;
+.header-nav, .frame-1-word {
+    text-transform: uppercase;
 }
-
 .header-nav {
     width: 100%;
     font-size: clamp(0.6rem, -0.25rem + 2vw, 1rem);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
+    padding: 30px 0;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase ;
 }
-
 .main-container {
     max-width: 1920px;
     margin: 0 auto;
     position: relative;
-    display: flex;
-    justify-content: center;
 }
-.main-container section, .main-container p {
+.main-container section, .main-container p, .pic-project img {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
-.frame-1-word {
+.frame-1-word, .frame-1-price-project {
     font-family: 'Proxima Nova';
-    font-size: 80px;
     color: #fff;
-    text-transform: uppercase;
+}
+.frame-1-word {
+    font-size: 80px;
+}
+.frame-1-project, .frame-1-word-1, .frame-1-word-2, .pic-play-project, .frame-1-arrow, .frame-1-price-radius {
+    position: absolute;
 }
 .frame-1-project {
-    
     width: 100%;
     height: 956px;
     margin: 0 auto; 
-    position: absolute;
     z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
-
-.pic-project {
-    max-width: 100%; 
-    height: auto;
-    margin: 0 auto;
-}
-.pic-project img {
-    max-width: 100%;
-    height: auto;
-}
-
-.frame-1-word-1 {
-    position: absolute;
-    top: 300px;
+.frame-1-word-1, .frame-1-word-2 {
     left: 200px;
     z-index: 2;
+}
+.frame-1-word-1 {
+    top: 300px;
 }
 .frame-1-word-2 {
-    position: absolute;
     top: 417px;
-    left: 200px;
-    z-index: 2;
 }
-.pic-play-project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+.pic-play-project, .frame-1-price-radius {
     border: 1px solid #fff;
     border-radius: 50%;
-    position: absolute;
+}
+.pic-play-project {
+    width: 50px;
+    height: 50px;
     top: 50px;
     left: 1671px;
 }
@@ -180,7 +141,6 @@ body {
     padding-left: 4px;
 }
 .frame-1-arrow {
-    position: absolute;
     top: 786px;
     left: 200px;
 }
@@ -188,103 +148,79 @@ body {
     width: 286px;
     height: 286px;
     background-color: #333;
-    color: #fff;
-    font-family: 'Proxima Nova';
     font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
 }
 .frame-1-price-radius {
     width: 372px;
     height: 372px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     top: 670px;
     left: 1348px;
 }
-.frame-1-mini-img {
+
+
+
+.frame-2-img1-1, .frame-2-img2-2, .frame-2-line3 {
     display: none;
 }
-
-
+.frame-2, .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1, .frame-2-line1, .frame-2-img2, .frame-2-line2 {
+    position: absolute;
+}
 .frame-2 {
     width: 1920px;
     height: 1100px;
-    position: absolute;
     top: 1099px;
-    
 }
 .frame-2-word {
     font-size: 60px;
     font-family: 'Proxima Nova';
     text-transform: uppercase;
 }
-.frame-2-word-1 {
-    position: absolute;
-    top: 100px;
+.frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-img1 {
     left: 200px;
+}
+.frame-2-word-1 {
+    top: 100px;
 }
 .frame-2-word-2 {
-    position: absolute;
     top: 193px;
-    left: 200px;
 }
 .frame-2-word-3 {
-    position: absolute;
     top: 286px;
-    left: 200px;
 }
 .frame-2-word-4 {
-    position: absolute;
     top: 927px;
     left: 943px;
 }
-.frame-2-img1 {
-    position: absolute;
+.frame-2-img1, .frame-2-line1, .frame-2-img2, .frame-2-line2 {
     top: 459px;
-    left: 201px;
+}
+.frame-2-img1 {
     z-index: 1;
 }
 .frame-2-line1 {
-    position: absolute;
-    top: 459px;
     left: 384px;
 }
 .frame-2-img2 {
-    position: absolute;
-    top: 459px;
     left: 1105px;
 }
 .frame-2-line2 {
-    position: absolute;
-    top: 459.03px;
     left: 1102.27px;
 }
-.frame-2-img1-1, .frame-2-img2-2, .frame-2-line3 {
-    display: none;
+
+
+
+
+.frame-3, .frame-3-project img {
+    max-width: 100%;
+    height: auto;
 }
-
-
-
-
-
-
 .frame-3 {
     position: absolute;
-    max-width: 100%; 
-    height: auto;
     margin: 0 auto;
     left: 0px;
     top: 2199px;
 }
-
-
 .frame-3-exp {
     width: 1920px;
     padding: 0;
@@ -293,35 +229,32 @@ body {
     justify-content: space-evenly;
     text-align: center;
 }
-
+.frame-3-exp p {
+    color: #333;
+}
 .frame-3-exp-tittle {
     font-size: 60px;
     font-family: 'AshleyCapitaliSofia';
     margin-bottom: 30px;
-    color: #333333;
 }
 .frame-3-exp-subtittle {
     font-size: 28px;
     font-family: 'Proxima Nova';
     text-transform: uppercase;
-    color: #333333;
-}
-
-.frame-3-project img {
-    max-width: 100%;
-    height: auto;
 }
 
 
 
+.frame-4-quote2, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2, .frame-4-arrow2-2, .frame-4-arrow3-2, .frame-4-background1 {
+    display: none;
+}
+.frame-4, .frame-4-tittle, .frame-4-quote, .frame-4-feedback, .frame-4-name, .frame-4-data, .frame-4-arrow1, .frame-4-arrow2, .frame-4-arrow3 {
+    position: absolute;
+}
 .frame-4 {
     width: 1920px;
     height: 1050px;
-    position: absolute;
     top: 3194px;
-}
-.frame-4-quote2, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2, .frame-4-arrow2-2, .frame-4-arrow3-2, .frame-4-background1 {
-    display: none;
 }
 .frame-4-background img {
     max-width: 100%;
@@ -330,18 +263,17 @@ body {
 .frame-4-background {
     padding-top: 50px;
 }
-.frame-4-tittle {
-    position: absolute;
-    top: 100px;
+.frame-4-tittle, .frame-4-quote, .frame-4-arrow1 {
     left: 200px;
+}
+.frame-4-tittle {
+    top: 100px;
     font-size: 80px;
     color: #fff;
     text-transform: uppercase;
 }
 .frame-4-quote {
-    position: absolute;
     top: 387px;
-    left: 200px;
     color: #fff;
 }
 .frame-4-feedback {
@@ -350,46 +282,106 @@ body {
     line-height: 56px;
     color: #fff;
     padding-right: 200px;
-    position: absolute;
     top: 335px;
-    left: 350px;
 }
-.frame-4-name {
-    position: absolute;
+.frame-4-name, .frame-4-data {
     top: 609px;
+}
+.frame-4-name, .frame-4-feedback {
     left: 350px;
 }
 .frame-4-data {
-    position: absolute;
-    top: 609px;
     left: 1526px;
 }
-.frame-4-arrow1 {
-    position: absolute;
+.frame-4-arrow1, .frame-4-arrow3 {
     top: 850px;
-    left: 200px;
 }
 .frame-4-arrow2 {
-    position: absolute;
     top: 844px;
     left: 805px;
 }
 .frame-4-arrow3 {
-    position: absolute;
-    top: 850px;
     left: 1506px;
 }
 
-asdasdasd.asdasdas.asdasdas.adasd
 
 
 
-
-
-
-
-
-
+.frame-5-1object-photo-mini, .frame-5-2object-photo-mini, .frame-5-3object-photo-mini, .frame-5-4object-photo-mini,
+.frame-5-ellipce-mini, .frame-5-line-mini, .frame-5-all-project-mini {
+    display: none;
+}
+.frame-5, .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-public-project, .frame-5-1object, 
+.frame-5-2object, .frame-5-3object, .frame-5-4object, .frame-5-ellipce, .frame-5-line, .frame-5-all-project {
+    position: absolute;
+}
+.frame-5-title, .frame-5-personal-project, .frame-5-public-project, .frame-5-object-info {
+    text-transform: uppercase;
+}
+.frame-5-personal-project, .frame-5-lookfull-project {
+    text-decoration: underline;
+}
+.frame-5 {
+    width: 1920px;
+    height: 2727px;
+    top: 4242px;
+}
+.frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-1object, .frame-5-3object {
+    left: 200px;
+}
+.frame-5-title {
+    font-size: 80px;
+    top: 100px;
+}
+.frame-5-comm {
+    font-size: 32px;
+    top: 217px;
+}
+.frame-5-personal-project, .frame-5-public-project {
+    top: 317px;   
+}
+.frame-5-public-project {
+    left: 428px;
+}
+.frame-5-object-info {
+    font-size: 32px;
+    line-height: 50px;
+    gap: 20px;
+}
+.frame-5-object-info p {
+    padding-top: 20px;
+}
+.frame-5-adres-object {
+    color: #888;
+}
+.frame-5-lookfull-project {
+    font-size: 20px;
+}
+.frame-5-1object, .frame-5-2object {
+    top: 409px;
+}
+.frame-5-2object, .frame-5-4object {
+    left: 975px;
+}
+.frame-5-3object, .frame-5-4object {
+    top: 1483px;
+}
+.frame-5-ellipce {
+    top: 223px;
+    left: 1534px;
+}
+.frame-5-line {
+    top: 1049px;
+    left: 1549.13px;
+    z-index: -1;
+}
+.frame-5-all-project {
+    top: 2557px;
+}
+.frame-5-all-project img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -398,13 +390,14 @@ asdasdasd.asdasdas.asdasdas.adasd
     .frame-1-word {
         font-size: 50px;
     }
+    .frame-1-word-1, .frame-1-word-2 {
+        left: 190px;
+    }
     .frame-1-word-1 {
         top: 222px;
-        left: 190px;
     }
     .frame-1-word-2 {
         top: 300px;
-        left: 190px;
     }
     .frame-1-arrow {
         top: 532px;
@@ -417,51 +410,46 @@ asdasdasd.asdasdas.asdasdas.adasd
         left: 1295px;
     }
 
+
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1, .frame-2-line1, .frame-2-img2, .frame-2-line2 {
+        position: absolute;
+    }
     .frame-2-word {
         font-size: 45px;
     }
-    .frame-2-word-1 {
-        position: absolute;
-        top: -160px;
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-img1 {
         left: 160px;
+    }
+    .frame-2-word-1 {
+        top: -160px;
     }
     .frame-2-word-2 {
-        position: absolute;
         top: -90px;
-        left: 160px;
     }
     .frame-2-word-3 {
-        position: absolute;
         top: -20px;
-        left: 160px;
     }
     .frame-2-word-4 {
-        position: absolute;
         top: 601px;
         left: 825px;
     }
-    .frame-2-img1 {
-        position: absolute;
+    .frame-2-img1, .frame-2-line1, .frame-2-img2, .frame-2-line2 {
         top: 127px;
-        left: 160px;
+    }
+    .frame-2-img1, .frame-2-img2 {
         z-index: 1;
     }
     .frame-2-line1 {
-        position: absolute;
-        top: 127px;
         left: 343px;
     }
     .frame-2-img2 {
-        position: absolute;
-        top: 127px;
         left: 948px;
-        z-index: 1;
     }
     .frame-2-line2 {
-        position: absolute;
-        top: 127px;
         left: 944px;
     }
+
+
     .frame-3 {
         position: absolute;
         top: 1867px;
@@ -469,50 +457,79 @@ asdasdasd.asdasdas.asdasdas.adasd
 
 
 
-    .frame-4 {
+    .frame-4, .frame-4-tittle, .frame-4-quote, .frame-4-feedback, .frame-4-name, .frame-4-data, .frame-4-arrow1, .frame-4-arrow3, .frame-4-arrow2 {
         position: absolute;
+    }
+    .frame-4 {
         top: 2661px;
     }
-    .frame-4-tittle {
-        position: absolute;
+    .frame-4-tittle, .frame-4-arrow1 {
         left: 150px;
     }
     .frame-4-quote {
-        position: absolute;
         top: 319px;
         left: 100px;
     }
     .frame-4-feedback {
         width: 1125px;
         padding-right: 0;
-        position: absolute;
         top: 260px;
         left: 250px;
     }
-    .frame-4-name {
-        position: absolute;
+    .frame-4-name, .frame-4-data {
         top: 497px;
+    }
+    .frame-4-name {
         left: 230px;
     }
     .frame-4-data {
-        position: absolute;
-        top: 497px;
         left: 1100px;
     }
-    .frame-4-arrow1 {
-        position: absolute;
-        top: 617px;
-        left: 150px;
+    .frame-4-arrow1, .frame-4-arrow3 {
+        top: 617px; 
     }
     .frame-4-arrow3 {
-        position: absolute;
-        top: 617px;
         left: 1075px;
     }
     .frame-4-arrow2 {
-        position: absolute;
         top: 611px;
         left: 566px;
+    }
+
+
+    .frame-5, .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object,
+    .frame-5-public-project, .frame-5-2object-info, .frame-5-3object-info, .frame-5-4object-info, .frame-5-1object-info, .frame-5-all-project {
+        position: absolute;
+    }
+    .frame-5-ellipce, .frame-5-line {
+        display: none;
+    }
+    .frame-5 {
+        top: 3365px;
+    }
+    .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object {
+        left: 100px;
+    }
+    .frame-5-public-project {
+        left: 328px;
+    }
+    .frame-5-2object-info, .frame-5-3object-info, .frame-5-4object-info, .frame-5-1object-info {
+        top: 100px;
+    }
+    .frame-5-2object-info, .frame-5-3object-info, .frame-5-4object-info, .frame-5-1object-info {
+        left: 900px;
+    }
+    .frame-5-2object {       
+        top: 2009px;
+    }
+    .frame-5-3object {
+        top: 1209px;
+    }
+    .frame-5-4object {
+        top: 2809px;
+    }
+    .frame-5-all-project {
+        top: 3609px;
     }
 
 }
@@ -525,7 +542,6 @@ asdasdasd.asdasdas.asdasdas.adasd
         justify-content: space-evenly;
         align-items: center;
     }
-
     .header-right, .header-left {
         gap: 15px;
     }
@@ -533,34 +549,31 @@ asdasdasd.asdasdas.asdasdas.adasd
         align-self: center;
     }
     .header-adress {
-       
         margin: 0;
+    }
+    .header-left, .header-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;  
     }
     .header-left {
         width: 297px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
     .header-right {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         padding-right: 20px;
     }
-    
     .frame-1-word {
         font-size: 40px;
     }
+    .frame-1-word-1, .frame-1-word-2 {
+        left: 130px;
+    }
     .frame-1-word-1 {
         top: 130px;
-        left: 130px;
     }
     .frame-1-word-2 {
         top: 200px;
-        left: 130px;
     }
     .frame-1-arrow {
         top: 343px;
@@ -582,53 +595,45 @@ asdasdasd.asdasdas.asdasdas.adasd
     }
 
 
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1, .frame-2-line1, .frame-2-img2, .frame-2-line2 {
+        position: absolute;
+    }
     .frame-2-word {
         font-size: 30px;
     }
-    .frame-2-word-1 {
-        position: absolute;
-        top: -410px;
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1, .frame-2-img2 {
         left: 65px;
+    }
+    .frame-2-word-1 {
+        top: -410px;
     }
     .frame-2-word-2 {
-        position: absolute;
         top: -360px;
-        left: 65px;
     }
     .frame-2-word-3 {
-        position: absolute;
         top: -310px;
-        left: 65px;
     }
     .frame-2-word-4 {
-        position: absolute;
         top: -260px;
-        left: 65px;
+    }
+    .frame-2-img1, .frame-2-img2 {
+        z-index: 1; 
     }
     .frame-2-img1 {
-        position: absolute;
         top: -190px;
-        left: 65px;
-        z-index: 1;
     }
     .frame-2-line1 {
-        position: absolute;
         top: -189px;
         left: 249px;
     }
     .frame-2-img2 {
-        position: absolute;
         top: -190px;
-        left: 65px;
-        z-index: 1;
     }
     .frame-2-img2 {
-        position: absolute;
         top: -190px;
         left: 665px;
     }
     .frame-2-line2 {
-        position: absolute;
         top: -189px;
         left: 661px;
     }
@@ -642,58 +647,91 @@ asdasdasd.asdasdas.asdasdas.adasd
         font-size: 40px;
     }
 
-    .frame-4 {
-        position: absolute;
-        top: 2102px;
-    }
+    
     .frame-4-quote2, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2, .frame-4-arrow2-2, .frame-4-arrow3-2 {
         display: block;
     }
     .frame-4-quote, .frame-4-name, .frame-4-data, .frame-4-arrow1, .frame-4-arrow2, .frame-4-arrow3 {
         display: none;
     }
-    .frame-4-tittle {
+    .frame-4, .frame-4-tittle, .frame-4-quote2, .frame-4-feedback, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2, 
+    .frame-4-arrow2-2, .frame-4-arrow3-2 {
         position: absolute;
+    }
+    .frame-4 {
+        top: 2102px;
+    }
+    .frame-4-tittle {
         top: 80px;
         left: 120px;
         font-size: 50px;
     }
     .frame-4-quote2 {
-        position: absolute;
         top: 260px;
         left: 30px;
     }
     .frame-4-feedback {
-        position: absolute;
         width: 940px;
         top: 170px;
         left: 80px;
         font-size: 25px;
     }
-    .frame-4-name2 {
-        position: absolute;
+    .frame-4-name2, .frame-4-data2 {
         top: 410px;
+    }
+    .frame-4-name2 {
         left: 60px;
     }
     .frame-4-data2 {
-        position: absolute;
-        top: 410px;
         left: 860px;
     }
-    .frame-4-arrow1-2 {
-        position: absolute;
+    .frame-4-arrow1-2, .frame-4-arrow2-2, .frame-4-arrow3-2 {
         top: 480px;
+    }
+    .frame-4-arrow1-2 {
         left: 50px;
     }
     .frame-4-arrow2-2 {
-        position: absolute;
-        top: 480px;
         left: 460px;
     }
     .frame-4-arrow3-2 {
-        position: absolute;
-        top: 480px;
         left: 928px;
+    }
+
+
+    .frame-5-ellipce, .frame-5-line {
+        display: block;
+    }
+    .frame-5, .frame-5-1object-info, .frame-5-3object, .frame-5-3object-info, .frame-5-2object, .frame-5-2object-info, 
+    .frame-5-4object, .frame-5-4object-info, .frame-5-all-project, .frame-5-ellipce, .frame-5-line {
+        position: absolute;
+    }
+    .frame-5 {
+        top: 2612px;
+    }
+    .frame-5-1object-info, .frame-5-3object-info, .frame-5-2object-info, .frame-5-4object-info {
+        top: 710px;
+        left: 0;
+    }
+    .frame-5-3object {
+        top: 1483px;
+    }
+    .frame-5-2object {
+        top: 2558px;
+    }
+    .frame-5-4object {
+        top: 3631px;
+    }
+    .frame-5-all-project {
+        top: 4705px;
+    }
+    .frame-5-ellipce {
+        top: 1300px;
+        left: 643px;
+    }
+    .frame-5-line {
+        top: 3205px;
+        left: 700px;
     }
 
 }
@@ -706,23 +744,19 @@ asdasdasd.asdasdas.asdasdas.adasd
 
 
 @media (min-width: 425px) and (max-width: 768px) {
-    .header-nav, .header-left, .header-right, .frame-1-arrow, .frame-2-img1, .frame-2-img2, .frame-2-line1, .frame-2-line2{
+    .header-nav, .header-left, .header-right, .header-logo, .frame-1-arrow, .frame-2-img1, .frame-2-img2, .frame-2-line1, .frame-2-line2{
         display: none;
     }
     .header-about {
-        /* padding-bottom: 20px; */
-        border-bottom: none;
-        
+        border-bottom: none;  
+    }
+    .header-menu, .header-logo1 {
+        display: block;
     }
     .header-menu {
-        display: block;
         margin-right: 0;
     }
-    .header-logo {
-        display: none;   
-    }
     .header-logo1 {
-        display: block;
         margin-left: 0;
     }
     .header-center {
@@ -732,8 +766,6 @@ asdasdasd.asdasdas.asdasdas.adasd
         align-items: center;
         border-bottom: 1px solid #999;
     }
-    
-
     .pic-play-project {
         top: 25px;
         left: 675px;
@@ -741,13 +773,14 @@ asdasdasd.asdasdas.asdasdas.adasd
     .frame-1-word {
         font-size: 25px;
     }
+    .frame-1-word-1, .frame-1-word-2 {
+        left: 70px;
+    }
     .frame-1-word-1 {
         top: 100px;
-        left: 70px;
     }
     .frame-1-word-2 {
         top: 145px;
-        left: 70px;
     }
     .frame-1-price-radius {
         width: 240px;
@@ -761,50 +794,39 @@ asdasdasd.asdasdas.asdasdas.adasd
         font-size: 18px;
     }
 
-    .frame-2-img1-1 {
+
+    .frame-2-img1-1, .frame-2-img2-2, .frame-2-line3 {
         display: block;
     }
-    .frame-2-img2-2 {
-        display: block;
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1-1, .frame-2-img2-2, .frame-2-line3 {
+        position: absolute;
     }
-    .frame-2-line3 {
-        display: block;
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-img1-1, .frame-2-line3 {
+        left: 65px;
     }
     .frame-2-word-1 {
-        position: absolute;
         top: -600px;
-        left: 65px;
     }
     .frame-2-word-2 {
-        position: absolute;
         top: -550px;
-        left: 65px;
     }
     .frame-2-word-3 {
-        position: absolute;
         top: -500px;
-        left: 65px;
     }
     .frame-2-word-4 {
-        position: absolute;
         top: -117px;
         left: 514px;
         z-index: 1;
     }
     .frame-2-img1-1 {
-        position: absolute;
         top: -440px;
-        left: 65px;
     }
     .frame-2-img2-2 {
-        position: absolute;
         top: -260px;
         left: 515px;
     }
     .frame-2-line3 {
-        position: absolute;
         top: -210px;
-        left: 65px;
     }
 
 
@@ -820,24 +842,23 @@ asdasdasd.asdasdas.asdasdas.adasd
     }
 
 
-
-    .frame-4 {
+    .frame-4, .frame-4-tittle, .frame-4-quote2, .frame-4-feedback, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2, 
+    .frame-4-arrow2-2, .frame-4-arrow3-2 {
         position: absolute;
+    }
+    .frame-4 {
         top: 1662px;
     }
     .frame-4-tittle {
         font-size: 32px;
-        position: absolute;
         top: 100px;
         left: 277px;
     }
     .frame-4-quote2 {
-        position: absolute;
         top: 220px;
         left: 40px;
     }
     .frame-4-feedback {
-        position: absolute;
         top: 185px;
         left: 109px;
         font-size: 16px;
@@ -846,42 +867,115 @@ asdasdasd.asdasdas.asdasdas.adasd
         width: 570px;
     }
     .frame-4-name2 {
-        position: absolute;
         top: 295px;
         left: 100px;
     }
     .frame-4-data2 {
-        position: absolute;
         top: 295px;
         left: 545px;
     }
-    .frame-4-arrow1-2 {
-        position: absolute;
+    .frame-4-arrow1-2, .frame-4-arrow3-2 {
         top: 360px;
+    }
+    .frame-4-arrow1-2 {
         left: 50px;
     }
     .frame-4-arrow2-2 {
-        position: absolute;
         top: 357px;
         left: 345px;
     }
     .frame-4-arrow3-2 {
-        position: absolute;
-        top: 360px;
         left: 678px;
     }
-}
 
-@media (min-width: 375px) and (max-width: 425px) {
-    .header-nav, .header-logo, .header-left, .header-right, .frame-1-arrow,
-    .frame-2-img1, .frame-2-img2, .frame-2-line1, .frame-2-line2,
-    .frame-4-arrow1, .frame-4-arrow2, .frame-4-arrow3, .frame-4-data, .frame-4-name, .frame-4-background, .frame-4-quote
-    {
+
+    .frame-5-1object-photo, .frame-5-2object-photo, .frame-5-3object-photo, .frame-5-4object-photo,
+    .frame-5-ellipce, .frame-5-line {
         display: none;
     }
-    .header-logo1 {
+    .frame-5-1object-photo-mini, .frame-5-2object-photo-mini, .frame-5-3object-photo-mini, .frame-5-4object-photo-mini,
+    .frame-5-ellipce-mini {
         display: block;
+    }
+    .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-public-project, .frame-5, .frame-5-1object-info,
+    .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object, .frame-5-2object-info, .frame-5-3object-info,
+    .frame-5-4object-info, .frame-5-all-project, .frame-5-ellipce-mini {
         position: absolute;
+    }
+    .frame-5-title, .frame-5-comm, .frame-5-personal-project {
+        left: 50px;
+    }
+    .frame-5-title {
+        font-size: 32px;
+        top: 100px;
+    }
+    .frame-5-comm {
+        font-size: 16px;
+        top: 150px;
+    }
+    .frame-5-personal-project, .frame-5-public-project {
+        font-size: 12px;
+        top: 200px;
+    }
+    .frame-5-public-project {
+        left: 160px;
+    }
+    .frame-5 {
+        top: 2010px;
+    }
+    .frame-5-1object, .frame-5-2object {
+        top: 243px;
+    }
+    .frame-5-1object, .frame-5-3object {
+        left: 7px;
+    }
+    .frame-5-1object-info, .frame-5-3object-info {
+        top: 298px;
+    }
+    .frame-5-2object, .frame-5-4object {
+        left: 390px;
+    }
+    .frame-5-2object-info, .frame-5-4object-info {
+        top: 298px;
+    }
+    .frame-5-3object, .frame-5-4object {
+        top: 715px;
+    }
+    .frame-5-all-project {
+        top: 1187px;
+   }
+   .frame-5-ellipce-mini {
+        top: 180px;
+        left: 630px;
+   }
+   .frame-5-object-info p {
+        font-size: 14px;
+        padding-top: 12px;
+        padding-left: 10px;
+        line-height: 20px;
+   }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .header-nav, .header-logo, .header-left, .header-right, .frame-1-arrow, .frame-1-main-img,
+    .frame-2-img1, .frame-2-img2, .frame-2-line1, .frame-2-line2,
+    .frame-4-arrow1, .frame-4-arrow2, .frame-4-arrow3, .frame-4-data, .frame-4-name, .frame-4-background, .frame-4-quote {
+        display: none;
+    }
+    .header-logo1, .header-menu, .frame-1-word, .frame-1-mini-img {
+        display: block;
+    }
+    .header-logo1, .header-menu, .frame-1-mini-img {
+        position: absolute;
+    }
+    .header-logo1 {
         top: 20px;
         left: 16px;
     }
@@ -889,10 +983,8 @@ asdasdasd.asdasdas.asdasdas.adasd
         border-bottom: none;
     }
     .header-menu {
-        display: block;
-        position: absolute;
         top: 34px;
-        left: 304px;
+        left: 341px;
     }
     .header-about {
         padding: 0;
@@ -901,7 +993,6 @@ asdasdasd.asdasdas.asdasdas.adasd
     }
     
     .frame-1-word {
-        display: block;
         font-size: 50px;
     }
     .pic-play-project {
@@ -920,73 +1011,60 @@ asdasdasd.asdasdas.asdasdas.adasd
         width: 210px;
         height: 210px;
     }
-    .frame-1-main-img {
-        display: none;
-    }
     .frame-1-mini-img {
-        
-        display: block;
-        position: absolute;
         top: 20px;
         left: 25px;
     }
+    .frame-1-word-1, .frame-1-word-2 {
+        left: 40px;
+    }
     .frame-1-word-1 {
         top: 160px;
-        left: 40px;
     }
     .frame-1-word-2 {
         top: 283px;
-        left: 40px;
     }
 
 
-    .frame-2 {
+    .frame-2, .frame-2-word-1, .frame-2-word-2, .frame-2-word-3, .frame-2-word-4, .frame-2-img1-1,
+    .frame-2-img2-2, .frame-2-line3 {
         position: absolute;
+    }
+    .frame-2-word-1, .frame-2-word-2, .frame-2-word-3 {
+        left: 13px;
+    }
+    .frame-2 {
         top: 1130px;
     }
     .frame-2-word { 
         font-size: 30px;
-        
     }
     .frame-2-word-1 {
-        position: absolute;
         top: -395px;
-        left: 13px;
     }
     .frame-2-word-2 {
-        position: absolute;
         top: -359px;
-        left: 13px;
     }
     .frame-2-word-3 {
-        position: absolute;
         top: -319px;
-        left: 13px;
     }
     .frame-2-word-4 {
-        position: absolute;
         top: 294px;
         left: 97px;
     }
     .frame-2-img1-1 {
-        
-        position: absolute;
         top: -237px;
         left: 35px;
     }
     .frame-2-img2-2 {
-        
-        position: absolute;
         top: 263px;
         left: 198px;
     }
     .frame-2-line3 {
-        
-        position: absolute;
         top: -1px;
         left: 33.3px;
     }
-    
+
 
     .frame-3 {
         position: absolute;
@@ -999,77 +1077,99 @@ asdasdasd.asdasdas.asdasdas.adasd
         font-size: 16px;
     }
 
-
-
-
-    .frame-4 {
+    
+    .frame-4-background1, .frame-4-quote2, .frame-4-name2, .frame-4-data2, .frame-4-arrow1-2,
+    .frame-4-arrow2-2, .frame-4-arrow3-2 {
+        display: block;
+    }
+    .frame-4, .frame-4-tittle, .frame-4-quote2, .frame-4-feedback, .frame-4-name2,
+    .frame-4-data2, .frame-4-arrow1-2, .frame-4-arrow2-2, .frame-4-arrow3-2 {
         position: absolute;
+    }
+    .frame-4-tittle, .frame-4-arrow1-2 {
+        left: 40px;
+    }
+    .frame-4-quote2, .frame-4-feedback, .frame-4-name2 {
+        left: 57px;
+    }
+    .frame-4 {
         top: 1745px;
         padding-left: 25px;
     }
     .frame-4-background1 {
-        display: block;
         padding-top: 50px;
     }
     .frame-4-tittle {
         font-size: 32px;
-        position: absolute;
         top: 100px;
-        left: 41px;
     }
     .frame-4-quote2 {
-        display: block;
-        position: absolute;
         top: 158px;
-        left: 57px;
     }
     .frame-4-feedback {
-        
-        position: absolute;
         top: 206px;
-        left: 57px;
         font-size: 16px;
         line-height: 24px;
         padding-right: 0;
         width: 327px;
     }
     .frame-4-name2 {
-        display: block;
-        position: absolute;
         top: 446px;
-        left: 57px;
-        
     }
     .frame-4-data2 {
-        display: block;
-        position: absolute;
         top: 474px;
         left: 73px;
-        
     }
     .frame-4-arrow1-2 {
-        display: block;
-        position: absolute;
         top: 544px;
-        left: 40px;
-        
     }
     .frame-4-arrow2-2 {
-        display: block;
-        position: absolute;
         top: 541px;
         left: 163px;
-        
     }
     .frame-4-arrow3-2 {
-        display: block;
-        position: absolute;
         top: 544px;
         left: 334px;
-        
     }
 
 
+    .frame-5, .frame-5-title, .frame-5-comm, .frame-5-personal-project, .frame-5-public-project, 
+    .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object, .frame-5-ellipce-mini,
+    .frame-5-all-project, .frame-5-line-mini {
+        position: absolute;
+    }
+    .frame-5 {
+        top: 2282px;
+    }
+    .frame-5-title, .frame-5-comm, .frame-5-personal-project {
+        left: 30px;
+    }
+    .frame-5-public-project {
+        left: 140px;
+    }
+    .frame-5-1object, .frame-5-2object, .frame-5-3object, .frame-5-4object  {
+        left: 25px;
+    }
+    .frame-5-2object {
+        top: 1188px;
+    }
+    .frame-5-4object {
+        top: 1660px;
+    }
+    .frame-5-ellipce-mini {
+        top: 650px;
+        left: 280px;
+    }
+    .frame-5-all-project {
+        top: 2120px;
+    }
+    .frame-5-line-mini {
+        display: block;
+        top: 1285px;
+        left: 375px;
+        z-index: -1;
+    }
+
 }
 
 
@@ -1077,6 +1177,3 @@ asdasdasd.asdasdas.asdasdas.adasd
 
 
 
-@media 375px {
-    
-}
