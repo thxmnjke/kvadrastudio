@@ -578,29 +578,27 @@ body {
         top: 3609px;
     }
 
-
-    .quality {
+    .quality, .quality-background, .quality-info, .quality-free, .quality-arrow {
         position: absolute;
+    }
+    .quality {
         top: 7102px;
     }
     .quality-background {
         width: 630px;
         height: 574px;
-        position: absolute;
         left: 810px;
     }
-    .quality-info {
-        position: absolute;
-        top: 340px;
+    .quality-info, .quality-free {
         left: 831px;
+    }
+    .quality-info {
+        top: 340px;
     }
     .quality-free {
-        position: absolute;
         top: 523px;
-        left: 831px;
     }
     .quality-arrow {
-        position: absolute;
         top: 565px;
         left: 1240px;
     }
@@ -807,6 +805,36 @@ body {
         left: 700px;
     }
 
+
+    .quality {
+        position: absolute;
+        top: 7408px;
+    }
+    .quality-background {
+        width: 439px;
+        height: 408px;
+        position: absolute;
+        left: 585px;
+    }
+    .quality-info {
+        width: 375px;
+        position: absolute;
+        top: 280px;
+        left: 620px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .quality-free {
+        position: absolute;
+        top: 420px;
+        left: 620px;
+        font-size: 40px;
+    }
+    .quality-arrow {
+        position: absolute;
+        top: 447px;
+        left: 860px;
+    }
 }
  
 
