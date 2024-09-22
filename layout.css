@@ -578,6 +578,33 @@ body {
         top: 3609px;
     }
 
+
+    .quality {
+        position: absolute;
+        top: 7102px;
+    }
+    .quality-background {
+        width: 630px;
+        height: 574px;
+        position: absolute;
+        left: 810px;
+    }
+    .quality-info {
+        position: absolute;
+        top: 340px;
+        left: 831px;
+    }
+    .quality-free {
+        position: absolute;
+        top: 523px;
+        left: 831px;
+    }
+    .quality-arrow {
+        position: absolute;
+        top: 565px;
+        left: 1240px;
+    }
+
 }
 
 
