@@ -384,6 +384,52 @@ body {
 }
 
 
+.quality, .quality-background, .quality-info, .quality-free, .quality-arrow {
+    position: absolute;
+}
+
+.quality {
+    width: 1920px;
+    height: 965px;
+    top: 6970px;
+}
+.quality-main-photo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quality-main-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.quality-background {
+    width: 820px;
+    height: 765px;
+    background-color: #333;
+    top: 100px;
+    left: 1100px;
+}
+.quality-info, .quality-free {
+    text-transform: uppercase;
+    color: #fff;
+    left: 1150px;
+}
+.quality-info {
+    width: 570px;
+    top: 465px;
+    font-size: 28px;
+    line-height: 50px;
+}
+.quality-free {
+    font-size: 54px;
+    top: 715px;
+}
+.quality-arrow {
+    top: 765px;
+    left: 1600px;
+}
+
+
+
 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
