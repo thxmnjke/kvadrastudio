@@ -431,6 +431,50 @@ body {
 }
 
 
+.tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you, .tour3d-arrow {
+    position: absolute;
+}
+.tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you {
+    left: 200px;
+}
+.tour3d {
+    width: 1920px;
+    height: 1434px;
+    top: 7939px;
+}
+.tour3d-look, .tour3d-new-interior {
+    font-size: 80px;
+    line-height: 97.44px;
+    color: #333;
+    text-transform: uppercase;
+}
+.tour3d-look,.tour3d-arrow {
+    top: 100px;
+}
+.tour3d-new-interior {
+    top: 217px;
+}
+.tour3d-project, .tour3d-for-you {
+    font-size: 32px;
+    line-height: 50px;
+    color: #333;
+}
+.tour3d-project {
+    top: 334px;
+}
+.tour3d-main-photo {
+    top: 434px;
+}
+.tour3d-main-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.tour3d-for-you {
+    top: 1284px;
+}
+.tour3d-arrow {
+    left: 1720px;
+}
 
 
 
