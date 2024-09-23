@@ -387,7 +387,7 @@ body {
 .quality, .quality-background, .quality-info, .quality-free, .quality-arrow {
     position: absolute;
 }
-.quality-arrow-mini, .quality-mini-photo {
+.quality-arrow-mini {
     display: none;
 }
 .quality {
@@ -1309,6 +1309,39 @@ body {
         z-index: -1;
     }
 
+
+    .quality, .quality-background, .quality-info, .quality-free, .quality-arrow-mini {
+        position: absolute;
+    }
+    .quality {
+        top: 4439px;
+    }
+    .quality-main-photo {
+        padding-top: 50px;
+    }
+    .quality-background {
+        top: 166px;
+        left: 16px;
+        width: 394px;
+        height: 305px;
+    }
+    .quality-info, .quality-free {
+        left: 32px;
+    }
+    .quality-info {
+        width: 190px;
+        top: 321px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .quality-free {
+        top: 422px;
+        font-size: 22px;
+    }
+    .quality-arrow-mini {
+        top: 433px;
+        left: 344px;
+    }
 }
 
 
