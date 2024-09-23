@@ -387,7 +387,9 @@ body {
 .quality, .quality-background, .quality-info, .quality-free, .quality-arrow {
     position: absolute;
 }
-
+.quality-arrow-mini, .quality-mini-photo {
+    display: none;
+}
 .quality {
     width: 1920px;
     height: 965px;
@@ -805,33 +807,31 @@ body {
         left: 700px;
     }
 
-
-    .quality {
+    .quality, .quality-background, .quality-info, .quality-free, .quality-arrow {
         position: absolute;
+    }
+    .quality {
         top: 7408px;
     }
     .quality-background {
         width: 439px;
         height: 408px;
-        position: absolute;
         left: 585px;
+    }
+    .quality-info, .quality-free {
+        left: 620px;
     }
     .quality-info {
         width: 375px;
-        position: absolute;
         top: 280px;
-        left: 620px;
         font-size: 20px;
         line-height: 35px;
     }
     .quality-free {
-        position: absolute;
         top: 420px;
-        left: 620px;
         font-size: 40px;
     }
     .quality-arrow {
-        position: absolute;
         top: 447px;
         left: 860px;
     }
@@ -1054,6 +1054,44 @@ body {
         padding-top: 12px;
         padding-left: 10px;
         line-height: 20px;
+   }
+
+
+   .quality, .quality-arrow-mini, .quality-background, .quality-info, .quality-free {
+        position: absolute;
+   }
+   .quality {
+        top: 3215px;
+   }
+   .quality-main-photo {
+    padding-top: 100px;
+    padding-bottom: 0;
+   }
+   .quality-background {
+        left: 435px;
+        width: 333px;
+        height: 306px;        
+   }
+   .quality-info, .quality-free {
+        left: 450px;
+   }
+   .quality-info {
+        width: 305px;
+        top: 245px;
+        font-size: 16px;
+        line-height: 25px;
+   }
+   .quality-free {
+        top: 340px;
+        font-size: 32px;
+   }
+   .quality-arrow {
+        display: none;
+   }
+   .quality-arrow-mini {
+        display: block;
+        top: 357px;
+        left: 695px;
    }
 
 }
