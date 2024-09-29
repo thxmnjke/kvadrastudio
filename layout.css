@@ -396,8 +396,7 @@ body {
     top: 6970px;
 }
 .quality-main-photo {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 .quality-main-photo img {
     max-width: 100%;
