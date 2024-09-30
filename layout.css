@@ -479,72 +479,56 @@ body {
 }
 
 
+.better, .why-we-better, .we-make, .shedevr, .better-line, .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo {
+    position: absolute;
+}
+.why-we-better, .we-make, .shedevr, .better-kitchen-photo {
+    left: 200px;
+}
 .better {
     width: 1920px;
     height: 1100px;
-    position: absolute;
     top: 9382px;
+}
+.why-we-better, .we-make, .shedevr {
+    text-transform: uppercase;
+    color: #333;
 }
 .why-we-better {
     font-size: 80px;
     line-height: 97.44px;
-    text-transform: uppercase;
-    color: #333;
-    position: absolute;
     top: 100px;
-    left: 200px;
 }
 .we-make, .shedevr {
     font-size: 60px;
     line-height: 73.08px;
-    text-transform: uppercase;
-    color: #333;
 }
 .we-make {
-    position: absolute;
     top: 847px;
-    left: 200px;
 }
 .shedevr {
-    position: absolute;
     top: 940px;
-    left: 200px;
 }
 .better-line {
-    position: absolute;
     top: 120px;
     left: 322px;
 }
-.better-kitchen-photo {
-    position: absolute;
+.better-kitchen-photo, .better-lounge-photo {
     top: 297px;
-    left: 200px;
 }
-.better-kitchen-photo img {
-    max-width: 100%;
-    height: auto;
-}
-.better-layout-photo img {
-    max-width: 100%;
-    height: auto;
-}
-.better-lounge-photo img {
+.better-kitchen-photo img, .better-layout-photo img, .better-lounge-photo img  {
     max-width: 100%;
     height: auto;
 }
 .better-layout-photo {
-    position: absolute;
     top: 499px;
     left: 906px;
     z-index: 1;
 }
 .better-lounge-photo {
-    position: absolute;
-    top: 297px;
     left: 1100px;
 }
 .better-arrow {
-    position: absolute;
     top: 930px;
     left: 960px;
 }
@@ -737,6 +721,32 @@ body {
     }
     .tour3d-arrow {
         left: 1381px;
+    }
+
+
+    .better, .why-we-better, .we-make, .shedevr, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
+        position: absolute;
+    }
+    .better {
+        top: 9250px;
+    }
+    .why-we-better, .we-make, .shedevr {
+        left: 50px;
+    }
+    .better-line {
+        left: 172px;
+    }
+    .better-kitchen-photo {
+        left: 50px;
+    }
+    .better-layout-photo {
+        left: 515px;
+    }
+    .better-lounge-photo {
+        left: 770px;
+    }
+    .better-arrow {
+        left: 720px;
     }
 }
 
