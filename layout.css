@@ -433,6 +433,9 @@ body {
 .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you, .tour3d-arrow {
     position: absolute;
 }
+.tour3d-mini-arrow {
+    display: none;
+}
 .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you {
     left: 200px;
 }
@@ -893,6 +896,40 @@ body {
     .quality-arrow {
         top: 447px;
         left: 860px;
+    }
+
+    
+    .tour3d, .tour3d-look, .tour3d-for-you, .tour3d-main-photo, .tour3d-new-interior, .tour3d-project, .tour3d-mini-arrow {
+        position: absolute;
+    }
+    .tour3d-arrow {
+        display: none;
+    }
+    .tour3d-mini-arrow {
+        left: 940px;
+        display: block;
+    }
+    .tour3d {
+        top: 8025px;
+    }
+    .tour3d-look, .tour3d-new-interior {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .tour3d-look, .tour3d-mini-arrow {
+        top: 50px;
+    }
+    .tour3d-new-interior {
+        top: 110px;
+    }
+    .tour3d-project {
+        top: 180px;
+    }
+    .tour3d-main-photo {
+        top: 260px;
+    }
+    .tour3d-for-you {
+        top: 829px;
     }
 }
  
