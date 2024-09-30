@@ -433,7 +433,7 @@ body {
 .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you, .tour3d-arrow {
     position: absolute;
 }
-.tour3d-mini-arrow {
+.tour3d-mini-arrow, .tour3d-mini-photo {
     display: none;
 }
 .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you {
@@ -1463,6 +1463,49 @@ body {
     .quality-arrow-mini {
         top: 433px;
         left: 344px;
+    }
+
+
+    .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you, .tour3d-mini-photo, .tour3d-mini-arrow { 
+        position: absolute;
+    }
+    .tour3d {
+        top: 4960px;
+    }
+    .tour3d-main-photo, .tour3d-arrow {
+        display: none;
+    }
+    .tour3d-mini-photo, .tour3d-mini-arrow {
+        display: block;
+    }
+    .tour3d-look, .tour3d-mini-arrow {
+        top: 0;
+    }
+    .tour3d-look, .tour3d-new-interior {
+        left: 16px;
+        line-height: 38px;
+    }
+    .tour3d-new-interior {
+        top: 84px;
+    }
+    .tour3d-project, .tour3d-for-you {
+        left: 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .tour3d-project {
+        top: 188px;
+    }
+    .tour3d-for-you {
+        width: 255px;
+        top: 760px;
+    }
+    .tour3d-mini-photo {
+        top: 236px;
+        left: 25px;
+    }
+    .tour3d-mini-arrow {
+        left: 390px;
     }
 }
 
