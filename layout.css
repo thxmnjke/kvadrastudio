@@ -430,6 +430,53 @@ body {
 }
 
 
+.tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you, .tour3d-arrow {
+    position: absolute;
+}
+.tour3d-mini-arrow, .tour3d-mini-photo {
+    display: none;
+}
+.tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-main-photo, .tour3d-for-you {
+    left: 200px;
+}
+.tour3d {
+    width: 1920px;
+    height: 1434px;
+    top: 7939px;
+}
+.tour3d-look, .tour3d-new-interior {
+    font-size: 80px;
+    line-height: 97.44px;
+    color: #333;
+    text-transform: uppercase;
+}
+.tour3d-look,.tour3d-arrow {
+    top: 100px;
+}
+.tour3d-new-interior {
+    top: 217px;
+}
+.tour3d-project, .tour3d-for-you {
+    font-size: 32px;
+    line-height: 50px;
+    color: #333;
+}
+.tour3d-project {
+    top: 334px;
+}
+.tour3d-main-photo {
+    top: 434px;
+}
+.tour3d-main-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.tour3d-for-you {
+    top: 1284px;
+}
+.tour3d-arrow {
+    left: 1720px;
+}
 
 
 
@@ -604,6 +651,22 @@ body {
         left: 1240px;
     }
 
+
+    .tour3d, .tour3d-look, .tour3d-for-you, .tour3d-main-photo, .tour3d-new-interior, .tour3d-project, .tour3d-arrow {
+        position: absolute;
+    }
+    .tour3d {
+        top: 7850px;
+    }
+    .tour3d-look, .tour3d-for-you, .tour3d-main-photo, .tour3d-new-interior, .tour3d-project {
+        left: 50px;
+    }
+    .tour3d-main-photo {
+        left: 0;
+    }
+    .tour3d-arrow {
+        left: 1381px;
+    }
 }
 
 
@@ -833,6 +896,40 @@ body {
     .quality-arrow {
         top: 447px;
         left: 860px;
+    }
+
+    
+    .tour3d, .tour3d-look, .tour3d-for-you, .tour3d-main-photo, .tour3d-new-interior, .tour3d-project, .tour3d-mini-arrow {
+        position: absolute;
+    }
+    .tour3d-arrow {
+        display: none;
+    }
+    .tour3d-mini-arrow {
+        left: 940px;
+        display: block;
+    }
+    .tour3d {
+        top: 8025px;
+    }
+    .tour3d-look, .tour3d-new-interior {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .tour3d-look, .tour3d-mini-arrow {
+        top: 50px;
+    }
+    .tour3d-new-interior {
+        top: 110px;
+    }
+    .tour3d-project {
+        top: 180px;
+    }
+    .tour3d-main-photo {
+        top: 260px;
+    }
+    .tour3d-for-you {
+        top: 829px;
     }
 }
  
@@ -1093,6 +1190,32 @@ body {
         left: 695px;
    }
 
+
+   .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you, .tour3d-main-photo, .tour3d-mini-arrow {
+        position: absolute;
+   }
+   .tour3d {
+        top: 3650px;
+   }
+   .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you {
+        left: 50px;
+   }
+   .tour3d-look, .tour3d-new-interior {
+        font-size: 32px;
+        line-height: 25px;
+   }
+   .tour3d-project, .tour3d-for-you {
+        font-size: 24px;
+   }
+   .tour3d-for-you {
+        top: 680px;
+   }
+   .tour3d-main-photo {
+        left: 0;
+   }
+   .tour3d-mini-arrow {
+        left: 730px;
+   }
 }
 
 
@@ -1340,6 +1463,49 @@ body {
     .quality-arrow-mini {
         top: 433px;
         left: 344px;
+    }
+
+
+    .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you, .tour3d-mini-photo, .tour3d-mini-arrow { 
+        position: absolute;
+    }
+    .tour3d {
+        top: 4960px;
+    }
+    .tour3d-main-photo, .tour3d-arrow {
+        display: none;
+    }
+    .tour3d-mini-photo, .tour3d-mini-arrow {
+        display: block;
+    }
+    .tour3d-look, .tour3d-mini-arrow {
+        top: 0;
+    }
+    .tour3d-look, .tour3d-new-interior {
+        left: 16px;
+        line-height: 38px;
+    }
+    .tour3d-new-interior {
+        top: 84px;
+    }
+    .tour3d-project, .tour3d-for-you {
+        left: 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .tour3d-project {
+        top: 188px;
+    }
+    .tour3d-for-you {
+        width: 255px;
+        top: 760px;
+    }
+    .tour3d-mini-photo {
+        top: 236px;
+        left: 25px;
+    }
+    .tour3d-mini-arrow {
+        left: 390px;
     }
 }
 
