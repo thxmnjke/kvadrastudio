@@ -1190,6 +1190,32 @@ body {
         left: 695px;
    }
 
+
+   .tour3d, .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you, .tour3d-main-photo, .tour3d-mini-arrow {
+        position: absolute;
+   }
+   .tour3d {
+        top: 3650px;
+   }
+   .tour3d-look, .tour3d-new-interior, .tour3d-project, .tour3d-for-you {
+        left: 50px;
+   }
+   .tour3d-look, .tour3d-new-interior {
+        font-size: 32px;
+        line-height: 25px;
+   }
+   .tour3d-project, .tour3d-for-you {
+        font-size: 24px;
+   }
+   .tour3d-for-you {
+        top: 680px;
+   }
+   .tour3d-main-photo {
+        left: 0;
+   }
+   .tour3d-mini-arrow {
+        left: 730px;
+   }
 }
 
 
