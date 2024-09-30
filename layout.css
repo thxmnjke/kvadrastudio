@@ -479,6 +479,10 @@ body {
 }
 
 
+
+.better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
+    display: none;
+}
 .better, .why-we-better, .we-make, .shedevr, .better-line, .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo {
     position: absolute;
 }
@@ -1316,6 +1320,65 @@ body {
    .tour3d-mini-arrow {
         left: 730px;
    }
+
+   .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-line, .better-lounge-photo {
+        display: none;
+   }
+   .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
+        display: block;
+}
+   .better {
+        position: absolute;
+        top: 4363px;
+   }
+   .why-we-better {
+        font-size: 32px;
+        line-height: 38px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+   }
+   .we-make, .shedevr {
+        font-size: 24px;
+        line-height: 28px;
+        position: absolute;
+        left: 50px;
+   }
+   .we-make {
+        top: 365px;
+   }
+   .shedevr {
+        top: 409px;
+   }
+   .better-arrow-mini {
+        padding-bottom: 30px;
+        position: absolute;
+        top: 430px;
+        left: 384px;
+   }
+   .better-line-mini {
+        position: absolute;
+        top: 57px;
+        left: 99px;
+   }
+   .better-lounge-mini-photo {
+        position: absolute;
+        top: 150px;
+        left: 460px;
+   }
+   .better-kitchen-mini-photo {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        z-index: 1;
+   }
+   .better-layout-mini-photo {
+        position: absolute;
+        top: 276px;
+        left: 187px;
+        z-index: 2;
+   }
+
 }
 
 
