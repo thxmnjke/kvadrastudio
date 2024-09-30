@@ -1012,6 +1012,25 @@ body {
     .tour3d-for-you {
         top: 829px;
     }
+
+
+    .better, .better-lounge-photo, .better-layout-photo, .better-arrow {
+        position: absolute;
+    }
+    .better {
+        top: 8843px;
+    }
+    .better-lounge-photo {
+        padding-right: 50px;
+        left: 625px;
+    }
+    .better-layout-photo {
+        top: 600px;
+        left: 657px;
+    }
+    .better-arrow {
+        left: 512px;
+    }
 }
  
 
