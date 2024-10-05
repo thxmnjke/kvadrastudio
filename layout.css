@@ -722,6 +722,20 @@ body {
     .tour3d-arrow {
         left: 1381px;
     }
+
+
+    .services-line2, .services-line1 {
+        position: absolute;
+    }
+    .services-list {
+        width: 1300px;
+    }
+    .services-line2 {
+        top: 992px;
+    }
+    .services-line1 {
+        left: 1300.25px;
+    }
 }
 
 
