@@ -1000,6 +1000,17 @@ body {
     .tour3d-for-you {
         top: 829px;
     }
+
+
+    .services-list {
+        width: 930px;
+    }
+    .services-info {
+        font-size: 45px;
+    }
+    .services-ellipse, .services-line1, .services-line2 {
+        display: none;
+    }
 }
  
 
