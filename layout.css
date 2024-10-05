@@ -1296,6 +1296,25 @@ body {
    .tour3d-mini-arrow {
         left: 730px;
    }
+
+
+   .services {
+    gap: 50px;
+   }
+   .services-list {
+        width: 690px;
+   }
+   .services-info {
+        font-size: 26px;
+        line-height: 35px;
+   }
+   .contract {
+        margin-top: 50px;
+   }
+   .visit {
+        margin-bottom: 50px;
+   }
+
 }
 
 
