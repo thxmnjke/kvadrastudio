@@ -479,6 +479,61 @@ body {
 }
 
 
+.services, .services-ellipse, .services-line1, .services-line2 {
+    position: absolute;
+}
+.services, .services-list {
+    display: flex;
+}
+.services {
+    width: 1920px;
+    height: 1610px;
+    background-color: #897163;
+    top: 9501px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+.services-list {
+    width: 1519px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.services-info {
+    width: 745px;
+    font-size: 60px;
+    line-height: 73.08px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contract {
+    margin-top: 100px;
+}
+.visit {
+    margin-bottom: 100px;
+}
+.services-ellipse {
+    top: 314px;
+    left: 15px;
+}
+.services-line1 {
+    top: 0;
+    left: 1549.25px;
+}
+.services-line2 {
+    top: 1110px;
+    left: 370px;
+}
+.services-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.services-photo1 {
+    z-index: 1;
+}
+
+
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
