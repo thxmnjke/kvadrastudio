@@ -485,6 +485,9 @@ body {
 .services, .services-list {
     display: flex;
 }
+.services-line2-mini, .services-ellipce-mini {
+    display: none;
+}
 .services {
     width: 1920px;
     height: 1610px;
@@ -1605,6 +1608,31 @@ body {
     }
     .tour3d-mini-arrow {
         left: 390px;
+    }
+
+
+    .services-list {
+        width: 390px;
+    }
+    .services-info {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .services-ellipse, .services-line1, .services-line2 {
+        display: none;
+    }
+    .services-line2-mini, .services-ellipce-mini {
+        display: block;
+        position: absolute;
+    }
+    .services-line2-mini {
+        top: 3px;
+        left: 407px;
+    }
+    .services-ellipce-mini {
+        top: 98px;
+        left: -42px;
+        z-index: 1;
     }
 }
 
