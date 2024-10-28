@@ -597,6 +597,131 @@ body {
 
 
 
+.rates {
+    width: 1920px;
+    height: 1657px;
+    position: absolute;
+    top: 12100px;
+}
+.rate-background {
+    position: absolute;
+    top: 100px;
+}
+.rate-plan {
+    position: absolute;
+    top: 247px;
+    left: 1104px;
+}
+.rate-kitchen {
+    position: absolute;
+    top: 1009px;
+    left: 329px;
+    padding-bottom: 100px;
+}
+.rate-ellipce {
+    position: absolute;
+    top: 1143px;
+    left: 1465px;
+}
+.ours-rate {
+    color: #333333;
+    font-size: 80px;
+    line-height: 97px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    text-transform: uppercase;
+}
+.concept {
+    width: 487px;
+    height: 837px;
+    position: absolute;
+    top: 247px;
+    left: 200px;
+    background-color: #fff;
+}
+.complex {
+    width: 487px;
+    height: 837px;
+    position: absolute;
+    top: 347px;
+    left: 717px;
+    background-color: #fff;
+}
+.comfort {
+    width: 487px;
+    height: 837px;
+    position: absolute;
+    top: 447px;
+    left: 1234px;
+    background-color: #fff;
+}
+.concept-plus {
+    margin: 0;
+}
+.list-of-rate {
+    font-size: 20px;
+    line-height: 32px;
+    color: #222;
+    padding: 50px 30px;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.name-of-rate {
+    font-size: 28px;
+    line-height: 50px;
+    padding: 30px 0 0 30px;
+    text-transform: uppercase;
+    color: #897163;
+}
+.order-rate {
+    width: 427px;
+    height: 56px;
+    background-color: #897163;
+    font-size: 18px;
+    line-height: 56px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button-download-price {
+    width: 427px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #333;
+    gap: 10px;
+    margin: 30px 0 50px 30px;
+}
+.download-price {
+    margin-right: 0;
+    text-align: center;
+}
+#text-download-price {
+    width: 145px;
+    font-size: 18px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+.price-rate {
+    color: #333;
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.price-rate-number {
+    font-size: 100px;
+    line-height: 88px;
+    color: #897163;
+}
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
