@@ -538,6 +538,65 @@ body {
 
 
 
+.better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
+    display: none;
+}
+.better, .why-we-better, .we-make, .shedevr, .better-line, .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo {
+    position: absolute;
+}
+.why-we-better, .we-make, .shedevr, .better-kitchen-photo {
+    left: 200px;
+}
+.better {
+    width: 1920px;
+    height: 1100px;
+    top: 9382px;
+}
+.why-we-better, .we-make, .shedevr {
+    text-transform: uppercase;
+    color: #333;
+}
+.why-we-better {
+    font-size: 80px;
+    line-height: 97.44px;
+    top: 100px;
+}
+.we-make, .shedevr {
+    font-size: 60px;
+    line-height: 73.08px;
+}
+.we-make {
+    top: 847px;
+}
+.shedevr {
+    top: 940px;
+}
+.better-line {
+    top: 120px;
+    left: 322px;
+}
+.better-kitchen-photo, .better-lounge-photo {
+    top: 297px;
+}
+.better-kitchen-photo img, .better-layout-photo img, .better-lounge-photo img  {
+    max-width: 100%;
+    height: auto;
+}
+.better-layout-photo {
+    top: 499px;
+    left: 906px;
+    z-index: 1;
+}
+.better-lounge-photo {
+    left: 1100px;
+}
+.better-arrow {
+    top: 930px;
+    left: 960px;
+}
+
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
@@ -727,6 +786,7 @@ body {
     }
 
 
+<<<<<<< HEAD
     .services-line2, .services-line1 {
         position: absolute;
     }
@@ -738,6 +798,31 @@ body {
     }
     .services-line1 {
         left: 1300.25px;
+=======
+    .better, .why-we-better, .we-make, .shedevr, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
+        position: absolute;
+    }
+    .better {
+        top: 9250px;
+    }
+    .why-we-better, .we-make, .shedevr {
+        left: 50px;
+    }
+    .better-line {
+        left: 172px;
+    }
+    .better-kitchen-photo {
+        left: 50px;
+    }
+    .better-layout-photo {
+        left: 515px;
+    }
+    .better-lounge-photo {
+        left: 770px;
+    }
+    .better-arrow {
+        left: 720px;
+>>>>>>> b1a07ba7176f772b66f98b5ff33a3f0ffa4355c1
     }
 }
 
@@ -1005,6 +1090,7 @@ body {
     }
 
 
+<<<<<<< HEAD
     .services-list {
         width: 930px;
     }
@@ -1013,6 +1099,24 @@ body {
     }
     .services-ellipse, .services-line1, .services-line2 {
         display: none;
+=======
+    .better, .better-lounge-photo, .better-layout-photo, .better-arrow {
+        position: absolute;
+    }
+    .better {
+        top: 8843px;
+    }
+    .better-lounge-photo {
+        padding-right: 50px;
+        left: 625px;
+    }
+    .better-layout-photo {
+        top: 600px;
+        left: 657px;
+    }
+    .better-arrow {
+        left: 512px;
+>>>>>>> b1a07ba7176f772b66f98b5ff33a3f0ffa4355c1
     }
 }
  
@@ -1301,6 +1405,7 @@ body {
    }
 
 
+<<<<<<< HEAD
    .services {
     gap: 50px;
    }
@@ -1316,6 +1421,59 @@ body {
    }
    .visit {
         margin-bottom: 50px;
+=======
+   .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini {
+        position: absolute;
+   }
+   .why-we-better, .we-make, .shedevr, .better-kitchen-mini-photo {
+        left: 50px;
+   }
+   .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-line, .better-lounge-photo {
+        display: none;
+   }
+   .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
+        display: block;
+   }
+   .better {
+        top: 4363px;
+   }
+   .why-we-better {
+        font-size: 32px;
+        line-height: 38px;
+        top: 50px;
+   }
+   .we-make, .shedevr {
+        font-size: 24px;
+        line-height: 28px;
+   }
+   .we-make {
+        top: 365px;
+   }
+   .shedevr {
+        top: 409px;
+   }
+   .better-arrow-mini {
+        padding-bottom: 30px;
+        top: 430px;
+        left: 384px;
+   }
+   .better-line-mini {
+        top: 57px;
+        left: 99px;
+   }
+   .better-lounge-mini-photo {
+        top: 150px;
+        left: 460px;
+   }
+   .better-kitchen-mini-photo {
+        top: 150px;
+        z-index: 1;
+   }
+   .better-layout-mini-photo {
+        top: 276px;
+        left: 187px;
+        z-index: 2;
+>>>>>>> b1a07ba7176f772b66f98b5ff33a3f0ffa4355c1
    }
 
 }
@@ -1611,6 +1769,7 @@ body {
     }
 
 
+<<<<<<< HEAD
     .services-list {
         width: 390px;
     }
@@ -1633,6 +1792,45 @@ body {
         top: 98px;
         left: -42px;
         z-index: 1;
+=======
+    .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-line-mini, .better-kitchen-mini-photo, .better-layout-mini-photo, .better-lounge-mini-photo {
+        position: absolute;
+    }
+    .why-we-better, .we-make, .shedevr, .better-kitchen-mini-photo {
+        left: 32px;
+    }
+    .better {
+        top: 5804px;
+    }
+    .why-we-better {
+        top: 0;
+    }
+    .better-line-mini {
+        top: 6px;
+        left: 81px;
+    }
+    .better-kitchen-mini-photo {
+        top: 100px;
+    }
+    .better-lounge-mini-photo {
+        top: 200px;
+        left: 153px;
+        z-index: 2;
+    }
+    .better-layout-mini-photo {
+        top: 414px;
+        left: 277px;
+    }
+    .we-make {
+        top: 464px;
+    }
+    .shedevr {
+        top: 498px;
+    }
+    .better-arrow-mini {
+        top: 552px;
+        left: 212.5px;
+>>>>>>> b1a07ba7176f772b66f98b5ff33a3f0ffa4355c1
     }
 }
 
