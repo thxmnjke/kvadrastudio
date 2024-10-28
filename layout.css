@@ -479,6 +479,64 @@ body {
 }
 
 
+.services, .services-ellipse, .services-line1, .services-line2 {
+    position: absolute;
+}
+.services, .services-list {
+    display: flex;
+}
+.services-line2-mini, .services-ellipce-mini {
+    display: none;
+}
+.services {
+    width: 1920px;
+    height: 1610px;
+    background-color: #897163;
+    top: 10482px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+.services-list {
+    width: 1519px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.services-info {
+    width: 745px;
+    font-size: 60px;
+    line-height: 73.08px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contract {
+    margin-top: 100px;
+}
+.visit {
+    margin-bottom: 100px;
+}
+.services-ellipse {
+    top: 314px;
+    left: 15px;
+}
+.services-line1 {
+    top: 0;
+    left: 1549.25px;
+}
+.services-line2 {
+    top: 1110px;
+    left: 370px;
+}
+.services-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.services-photo1 {
+    z-index: 1;
+}
+
+
 
 .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
     display: none;
@@ -728,9 +786,27 @@ body {
     }
 
 
-    .better, .why-we-better, .we-make, .shedevr, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
+    .services-line2, .services-line1, .services {
         position: absolute;
     }
+    .services {
+        top: 10351px;
+    }
+    .services-list {
+        width: 1300px;
+    }
+    .services-line2 {
+        top: 992px;
+    }
+    .services-line1 {
+        left: 1300.25px;
+    }
+
+
+
+    .better, .why-we-better, .we-make, .shedevr, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
+        position: absolute;
+    }    
     .better {
         top: 9250px;
     }
@@ -1017,7 +1093,21 @@ body {
         top: 829px;
     }
 
+    .services {
+        position: absolute;
+        top: 9944px;
+    }
+    .services-list {
+        width: 930px;
+    }
+    .services-info {
+        font-size: 45px;
+    }
+    .services-ellipse, .services-line1, .services-line2 {
+        display: none;
+    }
 
+    
     .better, .better-lounge-photo, .better-layout-photo, .better-arrow {
         position: absolute;
     }
@@ -1322,6 +1412,27 @@ body {
    }
 
 
+   .services {
+        gap: 50px;
+        position: absolute;
+        top: 4894px;
+   }
+   .services-list {
+        width: 690px;
+   }
+   .services-info {
+        font-size: 26px;
+        line-height: 35px;
+   }
+   .contract {
+        margin-top: 50px;
+   }
+   .visit {
+        margin-bottom: 50px;
+   }
+
+
+   
    .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini {
         position: absolute;
    }
@@ -1666,6 +1777,36 @@ body {
     .tour3d-mini-arrow {
         left: 390px;
     }
+
+
+    .services {
+        position: absolute;
+        top: 6430px;
+    }
+    .services-list {
+        width: 390px;
+    }
+    .services-info {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .services-ellipse, .services-line1, .services-line2 {
+        display: none;
+    }
+    .services-line2-mini, .services-ellipce-mini {
+        display: block;
+        position: absolute;
+    }
+    .services-line2-mini {
+        top: 3px;
+        left: 407px;
+    }
+    .services-ellipce-mini {
+        top: 98px;
+        left: -42px;
+        z-index: 1;
+    }
+
 
 
     .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-line-mini, .better-kitchen-mini-photo, .better-layout-mini-photo, .better-lounge-mini-photo {
