@@ -2077,6 +2077,86 @@ body {
         top: 552px;
         left: 212.5px;
     }
+
+
+    .rates, .rate-background-mini, .ours-rate, .rate-plan, .concept, .complex, .comfort, .rate-ellipce-mini, .rate-kitchen-mini {
+        position: absolute;
+    }
+    .rates {
+        top: 6986px;
+    }
+    .rate-background {
+        display: none;
+    }
+    .rate-background-mini {
+        display: block;
+        left: 26px;
+    }
+    .ours-rate {
+        top: 24px;
+        left: 85px;
+    }
+    .rate-plan {
+        z-index: 1;
+        top: 663px;
+        left: 60px;
+    }
+    .name-of-rate {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 24px 0 0 16px;
+    }
+    .list-of-rate, .price-rate {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .list-of-rate {
+        padding: 24px 16px 0 16px;
+    }
+    .price-rate {
+        padding: 32px 0 0 16px;
+    }
+    #order-rate- {
+        margin: 24px 0 0 16px;
+    }
+    #text-download-price, #order-rate- {
+        font-size: 14px;
+        line-height: 44px;
+    }
+    #order-rate-, .button-download-price {
+        width: 311px;
+    }
+    .button-download-price {
+        margin: 24px 0 30px 16px;
+    }
+    .concept, .complex, .comfort {
+        width: 343px;
+        height: 650px;
+        left: 42px;
+        z-index: 2;
+    }
+    .rate-ellipce-mini, .rate-kitchen-mini {
+        left: 16px;
+    }
+    .concept {
+        top: 103px;
+    }
+    .complex {
+        top: 785px;
+    }
+    .comfort {
+        height: 600px;
+        top: 1466px;
+    }
+    .rate-kitchen-mini {
+        top: 2007px;
+        left: 58px;
+    }
+    .rate-ellipce-mini {
+        top: 2052px;
+        left: 290px;
+        z-index: 3;
+    }
 }
 
 
