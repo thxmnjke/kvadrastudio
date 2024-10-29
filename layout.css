@@ -596,6 +596,10 @@ body {
 }
 
 
+
+.rate-kitchen-mini, .rate-ellipce-mini, .rate-background-mini {
+    display: none;
+}
 .rates, .rate-background, .rate-plan, .rate-kitchen, .rate-ellipce ,.ours-rate, .concept, .complex, .comfort {
     position: absolute;
 }
@@ -1676,6 +1680,42 @@ body {
         z-index: 2;
    }
 
+   .rates, .ours-rate, .complex, .comfort, .rate-plan, .rate-kitchen-mini, .rate-ellipce-mini {
+        position: absolute;
+   }
+   .rates {
+        top: 5641px;
+   }
+   .rate-ellipce, .rate-kitchen {
+        display: none;
+   }
+   .rate-ellipce-mini, .rate-kitchen-mini {
+        display: block;
+   }
+   .ours-rate {
+        font-size: 40px;
+        line-height: 55px;
+        left: 75px;
+   }
+   .complex {
+        top: 1115px;
+        left: 241px;
+   }
+   .comfort {
+        top: 1983px;
+   }
+   .rate-plan {
+        top: 1000px;
+        left: 10px;
+   }
+   .rate-kitchen-mini {
+        top: 1935px;
+        left: 520px;
+   }
+   .rate-ellipce-mini {
+        top: 2051px;
+        left: 640px
+   }
 }
 
 
