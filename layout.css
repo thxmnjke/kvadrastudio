@@ -1288,6 +1288,33 @@ body {
     .better-arrow {
         left: 512px;
     }
+
+
+    .rates, .rate-plan, .rate-kitchen, .concept, .complex, .comfort {
+        position: absolute;
+    }
+    .rates {
+        top: 11081px;
+    }
+    .rate-plan {
+        top: 310px;
+        left: 426px;
+    }
+    .rate-kitchen {
+        top: 1385px;
+        left: 461px;
+    }
+    .concept, .comfort {
+        left: 40px;
+    }
+    .complex {
+        top: 597px;
+        left: 545px;
+    }
+    .comfort {
+        top: 1249px;
+    }
+
 }
  
 
