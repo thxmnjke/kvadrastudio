@@ -1404,6 +1404,33 @@ body {
         top: 1249px;
     }
 
+
+    .about, .about-us {
+        position: absolute;
+    }
+    .about {
+        top: 13134px;
+    }
+    .about-us {
+        width: 924px;
+        top: 170px;
+        left: 50px;
+    }
+    .about-us-title {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .about-us-subtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .about-us-subsubtitle, #more-about {
+        font-size: 16px;
+    }
+    #more-about {
+        width: 83px;
+    }
+
 }
  
 
