@@ -731,6 +731,10 @@ body {
 .about-background {
     top: 100px;
 }
+.about-background img, .about-gradient img {
+    max-width: 100%;
+    height: auto;
+}
 .about-gradient {
     top: 462px;
 }
@@ -1063,6 +1067,19 @@ body {
     .rate-ellipce {
         display: none;
     }
+
+
+    .about, .about-us {
+        position: absolute;
+    }
+    .about {
+        top: 13390px;
+    }
+    .about-us {
+        width: 1205px;
+        left: 119px;
+    }
+
 }
 
 
