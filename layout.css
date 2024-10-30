@@ -720,6 +720,74 @@ body {
 }
 
 
+.about, .about-background, .about-gradient, .about-us, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+    position: absolute;
+}
+.about {
+    width: 1920px;
+    height: 1117px;
+    top: 13701px;
+}
+.about-background {
+    top: 100px;
+}
+.about-gradient {
+    top: 462px;
+}
+.about-us {
+    width: 1320px;
+    height: 667px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.05);
+    top: 350px;
+    left: 300px;
+}
+.about-us p {
+    color: #333;
+}
+.about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+    left: 50px;
+}
+.about-us-title, .about-us-subtitle {
+    text-transform: uppercase;
+}
+.about-us-subsubtitle, #more-about {
+    font-size: 20px;
+}
+.about-us-title {
+    font-size: 80px;
+    line-height: 97px;
+    top: 50px;
+}
+.about-us-subtitle {
+    font-size: 28px;
+    line-height: 34px;
+    top: 177px;
+}
+.about-us-subsubtitle {
+    line-height: 32px;
+}
+.about-us-subsubtitle1 {
+    top: 241px;
+}
+.about-us-subsubtitle2 {
+    top: 335px;
+}
+.about-us-subsubtitle3 {
+    top: 429px;
+}
+#more-about {
+    width: 103px;
+    line-height: 42px;
+    color: #897163;
+    border-bottom: 2px solid #897163;
+    top: 575px;
+}
+
+
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
