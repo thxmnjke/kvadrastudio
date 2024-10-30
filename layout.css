@@ -600,7 +600,7 @@ body {
 .rate-kitchen-mini, .rate-ellipce-mini, .rate-background-mini {
     display: none;
 }
-.rates, .rate-background, .rate-plan, .rate-kitchen, .rate-ellipce ,.ours-rate, .concept, .complex, .comfort {
+.rates, .rate-background, .rate-plan, .rate-kitchen, .rate-ellipce ,.ours-rate, .tariff-card {
     position: absolute;
 }
 .rates {
@@ -641,7 +641,7 @@ body {
     font-size: 80px;
     line-height: 97px;
 }
-.concept, .complex, .comfort {
+.tariff-card {
     width: 487px;
     height: 837px;
     background-color: #fff;
@@ -964,7 +964,7 @@ body {
         position: absolute;
         left: 125px;
     }
-    .concept, .comfort, .complex {
+    .tariff-card {
         width: 435px;
         position: absolute;
     }
@@ -1294,7 +1294,7 @@ body {
     }
 
 
-    .rates, .rate-plan, .rate-kitchen, .concept, .complex, .comfort {
+    .rates, .rate-plan, .rate-kitchen, .tariff-card {
         position: absolute;
     }
     .rates {
@@ -2079,7 +2079,7 @@ body {
     }
 
 
-    .rates, .rate-background-mini, .ours-rate, .rate-plan, .concept, .complex, .comfort, .rate-ellipce-mini, .rate-kitchen-mini {
+    .rates, .rate-background-mini, .ours-rate, .rate-plan, .tariff-card, .rate-ellipce-mini, .rate-kitchen-mini {
         position: absolute;
     }
     .rates {
@@ -2129,7 +2129,7 @@ body {
     .button-download-price {
         margin: 24px 0 30px 16px;
     }
-    .concept, .complex, .comfort {
+    .tariff-card {
         width: 343px;
         height: 650px;
         left: 42px;
