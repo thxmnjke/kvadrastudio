@@ -723,6 +723,9 @@ body {
 .about, .about-background, .about-gradient, .about-us, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
     position: absolute;
 }
+.about-gradient-mini, .about-background-mini {
+    display: none;
+}
 .about {
     width: 1920px;
     height: 1117px;
@@ -2308,6 +2311,62 @@ body {
         left: 290px;
         z-index: 3;
     }
+
+
+    .about-gradient-mini, .about-background-mini, .about, .about-us, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+        position: absolute;
+    }
+    .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+        left: 16px;
+    }
+    .about-gradient-mini, .about-background-mini {
+        display: block;
+        left: 26px;
+    }
+    .about-gradient, .about-background {
+        display: none;        
+    }
+    .about {
+        top: 9215px;
+    }
+    .about-gradient-mini {
+        top: 385px;
+    }
+    .about-us {
+        width: 343px;
+        height: 749px;
+        top: 24px;
+        left: 42px;
+    }
+    .about-us-title {
+        font-size: 32px;
+        line-height: 38px;
+        top: 24px;
+    }
+    .about-us-subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        top: 82px;
+        padding-right: 90px;
+    }
+    .about-us-subsubtitle, #more-about {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-us-subsubtitle1 {
+        top: 142px;
+    }
+    .about-us-subsubtitle2 {
+        top: 306px;
+    }
+    .about-us-subsubtitle3 {
+        top: 470px;
+    }
+    #more-about {
+        width: 83px;
+        top: 702px;
+    }
+
 }
 
 
