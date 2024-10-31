@@ -597,6 +597,129 @@ body {
 
 
 
+.rate-kitchen-mini, .rate-ellipce-mini, .rate-background-mini {
+    display: none;
+}
+.rates, .rate-background, .rate-plan, .rate-kitchen, .rate-ellipce ,.ours-rate, .tariff-card {
+    position: absolute;
+}
+.rates {
+    width: 1920px;
+    height: 1657px;
+    top: 12100px;
+}
+.rate-background, .ours-rate {
+    top: 100px;
+}
+.rate-background img {
+    max-width: 100%;
+    height: auto;
+}
+.rate-plan {
+    top: 247px;
+    left: 1104px;
+}
+.rate-kitchen {
+    top: 1009px;
+    left: 329px;
+    padding-bottom: 100px;
+}
+.rate-ellipce {
+    top: 1143px;
+    left: 1465px;
+}
+.ours-rate, .concept {
+    left: 200px;
+}
+.ours-rate, .name-of-rate, .order-rate, #text-download-price {
+    text-transform: uppercase;
+}
+.ours-rate, .price-rate {
+    color:#333
+}
+.ours-rate {
+    font-size: 80px;
+    line-height: 97px;
+}
+.tariff-card {
+    width: 487px;
+    height: 837px;
+    background-color: #fff;
+}
+.concept {
+    top: 247px;
+}
+.complex {
+    top: 347px;
+    left: 717px;
+}
+.comfort {
+    top: 447px;
+    left: 1234px;
+}
+.concept-plus {
+    margin: 0;
+}
+.list-of-rate, .button-download-price {
+    display: flex;
+}
+.list-of-rate, .price-rate {
+    font-size: 20px;
+    line-height: 32px;
+}
+.list-of-rate {
+    color: #222;
+    padding: 50px 30px;
+    list-style-position: inside;
+    flex-direction: column;
+    gap: 50px;
+}
+.name-of-rate, .price-rate-number {
+    color: #897163;
+}
+.name-of-rate {
+    font-size: 28px;
+    line-height: 50px;
+    padding: 30px 0 0 30px;
+}
+.order-rate, .button-download-price {
+    width: 427px;
+    text-align: center;
+}
+.order-rate {
+    height: 56px;
+    background-color: #897163;
+    font-size: 18px;
+    line-height: 56px;
+    color: #fff;
+}
+.button-download-price {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    gap: 10px;
+    margin: 30px 0 50px 30px;
+}
+.download-price {
+    margin-right: 0;
+    text-align: center;
+}
+#text-download-price {
+    width: 145px;
+    font-size: 18px;
+    line-height: 56px;
+    margin-left: 0px;
+}
+.price-rate {
+    padding: 0 0 30px 50px;
+}
+.price-rate-number {
+    font-size: 100px;
+    line-height: 88px;
+}
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
@@ -827,6 +950,50 @@ body {
     }
     .better-arrow {
         left: 720px;
+    }
+
+
+    /* .rates, .ours-rate, .comfort, .concept, .complex, .rate-kitchen, .price-rate {
+        position: absolute;
+    } */ /* у меня нахуй просто ломается тут в моменте кнопки заказать и скачать если я все скомпаную и удалю у отдельных классов, и я не ебу почему так что нид хелп */
+    .rates {
+        position: absolute;
+        top: 11789px;
+    }
+    .ours-rate {
+        position: absolute;
+        left: 125px;
+    }
+    .tariff-card {
+        width: 435px;
+        position: absolute;
+    }
+    .concept, .complex {
+        height: 900px;
+    }
+    .concept {
+        left: 35px;
+    }
+    .complex {
+        left: 505px
+    }
+    .comfort {
+        height: 804px;
+        left: 975px;
+    }
+    .order-rate, .button-download-price {
+        width: 375px;
+    }
+    .rate-kitchen {
+        position: absolute;
+        left: 160px;
+    }
+    .rate-plan {
+        position: absolute;
+        left: 795px;
+    }
+    .rate-ellipce {
+        display: none;
     }
 }
 
@@ -1125,6 +1292,33 @@ body {
     .better-arrow {
         left: 512px;
     }
+
+
+    .rates, .rate-plan, .rate-kitchen, .tariff-card {
+        position: absolute;
+    }
+    .rates {
+        top: 11081px;
+    }
+    .rate-plan {
+        top: 310px;
+        left: 426px;
+    }
+    .rate-kitchen {
+        top: 1385px;
+        left: 461px;
+    }
+    .concept, .comfort {
+        left: 40px;
+    }
+    .complex {
+        top: 597px;
+        left: 545px;
+    }
+    .comfort {
+        top: 1249px;
+    }
+
 }
  
 
@@ -1486,6 +1680,42 @@ body {
         z-index: 2;
    }
 
+   .rates, .ours-rate, .complex, .comfort, .rate-plan, .rate-kitchen-mini, .rate-ellipce-mini {
+        position: absolute;
+   }
+   .rates {
+        top: 5641px;
+   }
+   .rate-ellipce, .rate-kitchen {
+        display: none;
+   }
+   .rate-ellipce-mini, .rate-kitchen-mini {
+        display: block;
+   }
+   .ours-rate {
+        font-size: 40px;
+        line-height: 55px;
+        left: 75px;
+   }
+   .complex {
+        top: 1115px;
+        left: 241px;
+   }
+   .comfort {
+        top: 1983px;
+   }
+   .rate-plan {
+        top: 1000px;
+        left: 10px;
+   }
+   .rate-kitchen-mini {
+        top: 1935px;
+        left: 520px;
+   }
+   .rate-ellipce-mini {
+        top: 2051px;
+        left: 640px
+   }
 }
 
 
@@ -1846,6 +2076,86 @@ body {
     .better-arrow-mini {
         top: 552px;
         left: 212.5px;
+    }
+
+
+    .rates, .rate-background-mini, .ours-rate, .rate-plan, .tariff-card, .rate-ellipce-mini, .rate-kitchen-mini {
+        position: absolute;
+    }
+    .rates {
+        top: 6986px;
+    }
+    .rate-background {
+        display: none;
+    }
+    .rate-background-mini {
+        display: block;
+        left: 26px;
+    }
+    .ours-rate {
+        top: 24px;
+        left: 85px;
+    }
+    .rate-plan {
+        z-index: 1;
+        top: 663px;
+        left: 60px;
+    }
+    .name-of-rate {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 24px 0 0 16px;
+    }
+    .list-of-rate, .price-rate {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .list-of-rate {
+        padding: 24px 16px 0 16px;
+    }
+    .price-rate {
+        padding: 32px 0 0 16px;
+    }
+    #order-rate- {
+        margin: 24px 0 0 16px;
+    }
+    #text-download-price, #order-rate- {
+        font-size: 14px;
+        line-height: 44px;
+    }
+    #order-rate-, .button-download-price {
+        width: 311px;
+    }
+    .button-download-price {
+        margin: 24px 0 30px 16px;
+    }
+    .tariff-card {
+        width: 343px;
+        height: 650px;
+        left: 42px;
+        z-index: 2;
+    }
+    .rate-ellipce-mini, .rate-kitchen-mini {
+        left: 16px;
+    }
+    .concept {
+        top: 103px;
+    }
+    .complex {
+        top: 785px;
+    }
+    .comfort {
+        height: 600px;
+        top: 1466px;
+    }
+    .rate-kitchen-mini {
+        top: 2007px;
+        left: 58px;
+    }
+    .rate-ellipce-mini {
+        top: 2052px;
+        left: 290px;
+        z-index: 3;
     }
 }
 
