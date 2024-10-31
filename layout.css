@@ -1828,7 +1828,46 @@ body {
         top: 2051px;
         left: 640px
    }
+
+
+   .about, .about-background, .about-gradient, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+        position: absolute;
+   }
+   .about {
+        top: 8461px;
+   }
+   .about-background {
+        top: 50px;
+   }
+   .about-gradient {
+        top: 245px;
+   }
+   .about-us {
+        width: 668px;
+   }
+   .about-us-title {
+        font-size: 50px;
+        line-height: 58px;
+        top: 32px;
+   }
+   .about-us-title, .about-us-subtitle, .about-us-subsubtitle {
+        padding-right: 20px;
 }
+    #more-about, .about-us-title, .about-us-subtitle, .about-us-subsubtitle {
+        left: 33px;
+}
+    .about-us-subtitle {
+        top: 120px;
+}
+    .about-us-subsubtitle1 {
+        top: 200px;
+}
+    .about-us-subsubtitle2 {
+        top: 311px;
+}
+
+}
+
 
 
 
