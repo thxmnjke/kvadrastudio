@@ -541,10 +541,10 @@ body {
 .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini, .better-arrow-mini {
     display: none;
 }
-.better, .why-we-better, .we-make, .shedevr, .better-line, .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo {
+.better, .why-we-better, .we-make, .better-line, .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo {
     position: absolute;
 }
-.why-we-better, .we-make, .shedevr, .better-kitchen-photo {
+.why-we-better, .we-make, .better-kitchen-photo {
     left: 200px;
 }
 .better {
@@ -552,7 +552,7 @@ body {
     height: 1100px;
     top: 9382px;
 }
-.why-we-better, .we-make, .shedevr {
+.why-we-better, .we-make {
     text-transform: uppercase;
     color: #333;
 }
@@ -561,15 +561,12 @@ body {
     line-height: 97.44px;
     top: 100px;
 }
-.we-make, .shedevr {
+.we-make {
     font-size: 60px;
     line-height: 73.08px;
 }
 .we-make {
     top: 847px;
-}
-.shedevr {
-    top: 940px;
 }
 .better-line {
     top: 120px;
@@ -631,7 +628,7 @@ body {
 .ours-rate, .concept {
     left: 200px;
 }
-.ours-rate, .name-of-rate, .order-rate, #text-download-price {
+.ours-rate, .name-of-rate, .order-rate, .text-download-price {
     text-transform: uppercase;
 }
 .ours-rate, .price-rate {
@@ -645,6 +642,7 @@ body {
     width: 487px;
     height: 837px;
     background-color: #fff;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
 }
 .concept {
     top: 247px;
@@ -705,10 +703,12 @@ body {
     margin-right: 0;
     text-align: center;
 }
-#text-download-price {
+.text-download-price {
     width: 145px;
     font-size: 18px;
     line-height: 56px;
+}
+.button-download-price p {
     margin-left: 0px;
 }
 .price-rate {
@@ -718,6 +718,89 @@ body {
     font-size: 100px;
     line-height: 88px;
 }
+
+
+.about, .about-background, .about-gradient, .about-us, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+    position: absolute;
+}
+.about-gradient-mini, .about-background-mini {
+    display: none;
+}
+.about {
+    width: 1920px;
+    height: 1117px;
+    top: 13701px;
+}
+.about-background {
+    top: 100px;
+}
+.about-background img, .about-gradient img {
+    max-width: 100%;
+    height: auto;
+}
+.about-gradient {
+    width: 1920px;
+    height: 238px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    top: 463px;
+}
+.about-us {
+    width: 1320px;
+    height: 667px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.05);
+    top: 350px;
+    left: 300px;
+}
+.about-us p {
+    color: #333;
+}
+.about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+    left: 50px;
+}
+.about-us-title, .about-us-subtitle {
+    text-transform: uppercase;
+}
+.about-us-subsubtitle, #more-about {
+    font-size: 20px;
+}
+.about-us-title {
+    font-size: 80px;
+    line-height: 97px;
+    top: 50px;
+}
+.about-us-subtitle {
+    font-size: 28px;
+    line-height: 34px;
+    top: 177px;
+}
+.about-us-subsubtitle {
+    line-height: 32px;
+}
+.about-us-subsubtitle1 {
+    top: 241px;
+}
+.about-us-subsubtitle2 {
+    top: 335px;
+}
+.about-us-subsubtitle3 {
+    top: 429px;
+}
+#more-about {
+    width: 103px;
+    line-height: 42px;
+    color: #897163;
+    border-bottom: 2px solid #897163;
+    top: 575px;
+}
+#more-about:hover {
+    cursor: pointer;
+    color: rgb(233, 180, 96);
+    border-bottom: none;
+}
+
+
 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -927,13 +1010,13 @@ body {
 
 
 
-    .better, .why-we-better, .we-make, .shedevr, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
+    .better, .why-we-better, .we-make, .better-line, .better-kitchen-photo, .better-layout-photo, .better-lounge-photo, .better-arrow {
         position: absolute;
     }    
     .better {
         top: 9250px;
     }
-    .why-we-better, .we-make, .shedevr {
+    .why-we-better, .we-make {
         left: 50px;
     }
     .better-line {
@@ -955,7 +1038,7 @@ body {
 
     /* .rates, .ours-rate, .comfort, .concept, .complex, .rate-kitchen, .price-rate {
         position: absolute;
-    } */ /* у меня нахуй просто ломается тут в моменте кнопки заказать и скачать если я все скомпаную и удалю у отдельных классов, и я не ебу почему так что нид хелп */
+    } */ 
     .rates {
         position: absolute;
         top: 11789px;
@@ -995,6 +1078,24 @@ body {
     .rate-ellipce {
         display: none;
     }
+
+
+    .about, .about-us, .about-gradient {
+        position: absolute;
+    }
+    .about {
+        top: 13390px;
+    }
+    .about-us {
+        width: 1205px;
+        left: 119px;
+    }
+    .about-gradient {
+        width: 1440px;
+        height: 202px;
+        top: 348px;
+    }
+
 }
 
 
@@ -1319,6 +1420,38 @@ body {
         top: 1249px;
     }
 
+
+    .about, .about-us, .about-gradient {
+        position: absolute;
+    }
+    .about {
+        top: 13134px;
+    }
+    .about-us {
+        width: 924px;
+        top: 170px;
+        left: 50px;
+    }
+    .about-us-title {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .about-us-subtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .about-us-subsubtitle, #more-about {
+        font-size: 16px;
+    }
+    .about-gradient {
+        width: 1024px;
+        height: 159px;
+        top: 261px;
+    }
+    #more-about {
+        width: 83px;
+    }
+
 }
  
 
@@ -1627,10 +1760,10 @@ body {
 
 
    
-   .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini {
+   .better, .why-we-better, .we-make, .better-arrow-mini, .better-lounge-mini-photo, .better-layout-mini-photo, .better-kitchen-mini-photo, .better-line-mini {
         position: absolute;
    }
-   .why-we-better, .we-make, .shedevr, .better-kitchen-mini-photo {
+   .why-we-better, .we-make, .better-kitchen-mini-photo {
         left: 50px;
    }
    .better-arrow, .better-kitchen-photo, .better-layout-photo, .better-line, .better-lounge-photo {
@@ -1647,15 +1780,12 @@ body {
         line-height: 38px;
         top: 50px;
    }
-   .we-make, .shedevr {
+   .we-make {
         font-size: 24px;
         line-height: 28px;
    }
    .we-make {
         top: 365px;
-   }
-   .shedevr {
-        top: 409px;
    }
    .better-arrow-mini {
         padding-bottom: 30px;
@@ -1716,7 +1846,51 @@ body {
         top: 2051px;
         left: 640px
    }
+
+
+   .about, .about-background, .about-gradient, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about, .about-gradient {
+        position: absolute;
+   }
+   .about {
+        top: 8461px;
+   }
+   .about-background {
+        top: 50px;
+   }
+   .about-gradient {
+        top: 245px;
+   }
+   .about-us {
+        width: 668px;
+   }
+   .about-us-title {
+        font-size: 50px;
+        line-height: 58px;
+        top: 32px;
+   }
+   .about-gradient {
+        width: 768px;
+        height: 120px;
+        top: 170px;
+   }
+   .about-us-title, .about-us-subtitle, .about-us-subsubtitle {
+        padding-right: 20px;
 }
+    #more-about, .about-us-title, .about-us-subtitle, .about-us-subsubtitle {
+        left: 33px;
+}
+    .about-us-subtitle {
+        top: 120px;
+}
+    .about-us-subsubtitle1 {
+        top: 200px;
+}
+    .about-us-subsubtitle2 {
+        top: 311px;
+}
+
+}
+
 
 
 
@@ -2039,10 +2213,10 @@ body {
 
 
 
-    .better, .why-we-better, .we-make, .shedevr, .better-arrow-mini, .better-line-mini, .better-kitchen-mini-photo, .better-layout-mini-photo, .better-lounge-mini-photo {
+    .better, .why-we-better, .we-make, .better-arrow-mini, .better-line-mini, .better-kitchen-mini-photo, .better-layout-mini-photo, .better-lounge-mini-photo {
         position: absolute;
     }
-    .why-we-better, .we-make, .shedevr, .better-kitchen-mini-photo {
+    .why-we-better, .we-make, .better-kitchen-mini-photo {
         left: 32px;
     }
     .better {
@@ -2069,9 +2243,6 @@ body {
     }
     .we-make {
         top: 464px;
-    }
-    .shedevr {
-        top: 498px;
     }
     .better-arrow-mini {
         top: 552px;
@@ -2157,6 +2328,64 @@ body {
         left: 290px;
         z-index: 3;
     }
+
+
+    .about-gradient-mini, .about-background-mini, .about, .about-us, .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+        position: absolute;
+    }
+    .about-us-title, .about-us-subtitle, .about-us-subsubtitle, #more-about {
+        left: 16px;
+    }
+    .about-background-mini {
+        display: block;
+        left: 26px;
+    }
+    .about-background {
+        display: none;        
+    }
+    .about {
+        top: 9215px;
+    }
+    .about-gradient {
+        width: 425px;
+        height: 238px;
+        top: 502px;
+    }
+    .about-us {
+        width: 343px;
+        height: 749px;
+        top: 24px;
+        left: 42px;
+    }
+    .about-us-title {
+        font-size: 32px;
+        line-height: 38px;
+        top: 24px;
+    }
+    .about-us-subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        top: 82px;
+        padding-right: 90px;
+    }
+    .about-us-subsubtitle, #more-about {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-us-subsubtitle1 {
+        top: 142px;
+    }
+    .about-us-subsubtitle2 {
+        top: 306px;
+    }
+    .about-us-subsubtitle3 {
+        top: 470px;
+    }
+    #more-about {
+        width: 83px;
+        top: 702px;
+    }
+
 }
 
 
