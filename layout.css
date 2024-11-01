@@ -1166,6 +1166,49 @@ body {
         top: 348px;
     }
 
+
+    .interior_videos {
+        position: absolute;
+        top: 14409px;
+    }
+    .interior_for_u, .same_like_plan, .first_video, .second_video, .finished_object { 
+        position: absolute;
+        left: 125px;
+    }
+    .first_video, .second_video {
+        margin-right: 125px;
+    }
+    .border_radius_forplay {
+        width: 360px;
+        height: 360px;
+    }
+    .button_play {
+        width: 275px;
+        height: 275px;
+    }
+    .play_first_video, .play-second_video {
+        left: 540px;
+    }
+    .play_first_video {
+        position: absolute;
+        top: 675px;
+    }
+    .second_video {
+        top: 1209px;
+    }
+    .play-second_video {
+        top: 1341px;
+    }
+    .finished_object {
+        position: absolute;
+        top: 1886px;
+    }
+    .interior_arrow {
+        position: absolute;
+        top: 1871px;
+        left: 1190px;
+    }
+
 }
 
 
