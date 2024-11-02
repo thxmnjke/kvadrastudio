@@ -803,71 +803,71 @@ body {
 
 
 
-.interior_videos, .interior_for_u, .same_like_plan, .first_video, .second_video, .finished_object, .interior_arrow, .play_first_video, .play-second_video {
+.interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object, .interior-arrow, .play-first-video, .play-second-video {
     position: absolute;
 }
-.interior_for_u, .same_like_plan, .first_video, .second_video, .finished_object { 
+.interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object { 
     left: 200px;
 }
-.interior_videos {
+.interior-videos {
     width: 1920px;
     top: 14819px;
 }
-.interior_for_u {
+.interior-for-u {
     font-size: 80px;
     line-height: 97px;
     color: #333;
     top: 100px;
     text-transform: uppercase;
 }
-.same_like_plan {
+.same-like-plan {
     top: 334px;
 }
-.finished_object, .same_like_plan {
+.finished-object, .same-like-plan {
     font-size: 32px;
     line-height: 50px;
     color: #333;
 }
-.first_video {
+.first-video {
     top: 534px;
 }
-.first_video img, .second_video img {
+.first-video img, .second-video img {
     max-width: 100%;
     height: auto;
 }
-.second_video {
+.second-video {
     top: 1384px;
 }
-.finished_object {
+.finished-object {
     top: 2234px;
 }
-.interior_arrow {
+.interior-arrow {
     top: 2220px;
     left: 1550px;
 }
-.button_play, .border_radius_forplay {
+.button-play, .border-radius-forplay {
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;   
 }
-.button_play {
+.button-play {
     width: 286px;
     height: 286px;
     background-color: #897163;
 }
-.border_radius_forplay {
+.border-radius-forplay {
     width: 372px;
     height: 372px;
     border: 1px solid #333333CC;
 }
-.play_first_video, .play-second_video {
+.play-first-video, .play-second-video {
     left: 774px;
 }
-.play_first_video {
+.play-first-video {
     top: 769px;
 }
-.play-second_video {
+.play-second-video {
     top: 1619px;
 }
 
@@ -1167,44 +1167,42 @@ body {
     }
 
 
-    .interior_videos {
+    .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object, .play-first-video, .play-second-video, .interior-arrow {
         position: absolute;
+    }
+    .interior-videos {
         top: 14409px;
     }
-    .interior_for_u, .same_like_plan, .first_video, .second_video, .finished_object { 
-        position: absolute;
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object { 
         left: 125px;
     }
-    .first_video, .second_video {
+    .first-video, .second-video {
         margin-right: 125px;
     }
-    .border_radius_forplay {
+    .border-radius-forplay {
         width: 360px;
         height: 360px;
     }
-    .button_play {
+    .button-play {
         width: 275px;
         height: 275px;
     }
-    .play_first_video, .play-second_video {
+    .play-first-video, .play-second-video {
         left: 540px;
     }
-    .play_first_video {
-        position: absolute;
+    .play-first-video {
         top: 675px;
     }
-    .second_video {
+    .second-video {
         top: 1209px;
     }
-    .play-second_video {
+    .play-second-video {
         top: 1341px;
     }
-    .finished_object {
-        position: absolute;
+    .finished-object {
         top: 1886px;
     }
-    .interior_arrow {
-        position: absolute;
+    .interior-arrow {
         top: 1871px;
         left: 1190px;
     }
@@ -1565,6 +1563,60 @@ body {
         width: 83px;
     }
 
+
+
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object {
+        left: 75px;
+    }
+    .interior-videos {
+        position: absolute;
+        top: 14073px;
+    }
+    .interior-for-u {
+        font-size: 55px;
+        line-height: 66px;
+        position: absolute;
+        top: 50px;
+    }
+    .same-like-plan {
+        position: absolute;
+        top: 203px;
+    }
+    .first-video, .second-video {
+        margin-right: 75px;
+    }
+    .first-video {
+        position: absolute;
+        top: 403px;
+    }
+    .second-video {
+        position: absolute;
+        top: 913px;
+    }
+    .button-play {
+        width: 245px;
+        height: 245px;
+    }
+    .border-radius-forplay {
+        width: 300px;
+        height: 300px;
+    }
+    .play-first-video, .play-second-video {
+        left: 357px;
+    }
+    .play-first-video {
+        top: 485px;
+    }
+    .play-second-video {
+        top: 995px;
+    }
+    .finished-object {
+        top: 1423px;
+    }
+    .interior-arrow {
+        top: 1383px;
+        left: 860px;
+    }
 }
  
 
