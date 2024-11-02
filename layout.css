@@ -806,6 +806,9 @@ body {
 .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object, .interior-arrow, .play-first-video, .play-second-video {
     position: absolute;
 }
+.interior-arrow-mini, .first-video-mini, .second-video-mini {
+    display: none;
+}
 .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object { 
     left: 200px;
 }
@@ -1565,32 +1568,30 @@ body {
 
 
 
+    .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .play-first-video, .play-second-video, .finished-object, .interior-arrow {
+        position: absolute;
+    }
     .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object {
         left: 75px;
     }
     .interior-videos {
-        position: absolute;
         top: 14073px;
     }
     .interior-for-u {
         font-size: 55px;
         line-height: 66px;
-        position: absolute;
         top: 50px;
     }
     .same-like-plan {
-        position: absolute;
         top: 203px;
     }
     .first-video, .second-video {
         margin-right: 75px;
     }
     .first-video {
-        position: absolute;
         top: 403px;
     }
     .second-video {
-        position: absolute;
         top: 913px;
     }
     .button-play {
@@ -2053,6 +2054,67 @@ body {
     .about-us-subsubtitle2 {
         top: 311px;
 }
+
+
+    .interior-arrow {
+        display: none;
+    }
+    .interior-arrow-mini {
+        display: block;
+    }
+    .interior-arrow-mini, .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .play-first-video, .play-second-video, .finished-object {
+        position: absolute;
+    }
+    .interior-videos {
+        top: 9347px;
+    }
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object {
+        left: 50px;
+    }
+    .first-video, .second-video {
+        margin-right: 50px;
+    }
+    .interior-for-u {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .same-like-plan {
+        top: 175px;
+    }
+    .finished-object, .same-like-plan {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .first-video {
+        top: 339px;
+    }
+    .second-video {
+        top: 741px;
+    }
+    .border-radius-forplay {
+        width: 250px;
+        height: 250px;
+    }
+    .button-play {
+        width: 200px;
+        height: 200px;
+    }
+    .play-first-video, .play-second-video {
+        left: 256px;
+    }
+    .play-first-video {
+        top: 385px;
+    }
+    .play-second-video {
+        top: 788px;
+    }
+    .finished-object {
+        top: 1143px;
+    }
+    .interior-arrow-mini {
+        top: 1168px;
+        left: 640px;
+    }
 
 }
 
