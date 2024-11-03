@@ -875,6 +875,60 @@ body {
 }
 
 
+.interior-design {
+    width: 1920px;
+    height: 1914px;
+    background-color: #333;
+    position: absolute;
+    top: 17669px;
+}
+.design-interior {
+    font-size: 80px;
+    line-height: 97px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 645px;
+}
+.four-components {
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+    width: 974px;
+    position: absolute;
+    text-align: center;
+    top: 217px;
+    left: 481px;
+}
+.design-photos {
+    margin-top: 417px !important;
+    width: 1920px;
+    height: 1397px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.design-name-services {
+    font-size: 60px;
+    line-height: 140px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 680px;
+    /* height: 140px !important; */
+    background: rgba(51, 51, 51, 0.8);
+    border: 1px solid #FCFCFC;
+    text-align: center;
+}
+.design-services {
+    display: flex;
+    flex-direction: column;
+    gap: 359px;
+    position: absolute;
+    top: 535px;
+    left: 615px;
+}
+
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
