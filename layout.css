@@ -926,6 +926,10 @@ body {
     top: 535px;
     left: 615px;
 }
+.design-photo img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -1683,6 +1687,36 @@ body {
     .interior-arrow {
         top: 1383px;
         left: 860px;
+    }
+
+
+    .interior-design {
+        top: 15721px;
+    }
+    .design-interior {
+        font-size: 60px;
+        line-height: 80px;
+        top: 50px;
+        left: 275px;
+    }
+    .four-components {
+        width: 830px;
+        top: 187px;
+        left: 108px;
+    }
+    .design-photos {
+        margin-top: 378px !important;
+        gap: 50px;
+    }
+    .design-name-services {
+        font-size: 48px;
+        line-height: 100px;
+        width: 575px;
+    }
+    .design-services {
+        top: 475px;
+        left: 245px;
+        gap: 255px;
     }
 }
  
