@@ -2216,6 +2216,33 @@ body {
         left: 640px;
     }
 
+
+    .interior-design {
+        top: 10654px;
+    }
+    .design-interior {
+        font-size: 40px;
+        line-height: 60px;
+        left: 225px;
+    }
+    .four-components {
+        font-size: 26px;
+        line-height: 44px;
+        width: 600px;
+        top: 135px;
+        left: 85px;
+    }
+    .design-services {
+        top: 437px;
+        left: 147px;
+        gap: 190px;
+    }
+    .design-name-services {
+        font-size: 40px;
+        line-height: 90px;
+        width: 490px;
+    }
+
 }
 
 
