@@ -803,6 +803,79 @@ body {
 
 
 
+.interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object, .interior-arrow, .play-first-video, .play-second-video {
+    position: absolute;
+}
+.interior-arrow-mini, .first-video-mini, .second-video-mini, .button-play-mini {
+    display: none;
+}
+.interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object { 
+    left: 200px;
+}
+.interior-videos {
+    width: 1920px;
+    top: 14819px;
+}
+.interior-for-u {
+    font-size: 80px;
+    line-height: 97px;
+    color: #333;
+    top: 100px;
+    text-transform: uppercase;
+}
+.same-like-plan {
+    top: 334px;
+}
+.finished-object, .same-like-plan {
+    font-size: 32px;
+    line-height: 50px;
+    color: #333;
+}
+.first-video {
+    top: 534px;
+}
+.first-video img, .second-video img {
+    max-width: 100%;
+    height: auto;
+}
+.second-video {
+    top: 1384px;
+}
+.finished-object {
+    top: 2234px;
+}
+.interior-arrow {
+    top: 2220px;
+    left: 1550px;
+}
+.button-play, .border-radius-forplay {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.button-play {
+    width: 286px;
+    height: 286px;
+    background-color: #897163;
+}
+.border-radius-forplay {
+    width: 372px;
+    height: 372px;
+    border: 1px solid #333333;
+}
+.play-first-video, .play-second-video {
+    left: 774px;
+}
+.play-first-video {
+    top: 769px;
+}
+.play-second-video {
+    top: 1619px;
+}
+
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
@@ -1094,6 +1167,47 @@ body {
         width: 1440px;
         height: 202px;
         top: 348px;
+    }
+
+
+    .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object, .play-first-video, .play-second-video, .interior-arrow {
+        position: absolute;
+    }
+    .interior-videos {
+        top: 14409px;
+    }
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object { 
+        left: 125px;
+    }
+    .first-video, .second-video {
+        margin-right: 125px;
+    }
+    .border-radius-forplay {
+        width: 360px;
+        height: 360px;
+    }
+    .button-play {
+        width: 275px;
+        height: 275px;
+    }
+    .play-first-video, .play-second-video {
+        left: 540px;
+    }
+    .play-first-video {
+        top: 675px;
+    }
+    .second-video {
+        top: 1209px;
+    }
+    .play-second-video {
+        top: 1341px;
+    }
+    .finished-object {
+        top: 1886px;
+    }
+    .interior-arrow {
+        top: 1871px;
+        left: 1190px;
     }
 
 }
@@ -1452,6 +1566,58 @@ body {
         width: 83px;
     }
 
+
+
+    .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .play-first-video, .play-second-video, .finished-object, .interior-arrow {
+        position: absolute;
+    }
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object {
+        left: 75px;
+    }
+    .interior-videos {
+        top: 14073px;
+    }
+    .interior-for-u {
+        font-size: 55px;
+        line-height: 66px;
+        top: 50px;
+    }
+    .same-like-plan {
+        top: 203px;
+    }
+    .first-video, .second-video {
+        margin-right: 75px;
+    }
+    .first-video {
+        top: 403px;
+    }
+    .second-video {
+        top: 913px;
+    }
+    .button-play {
+        width: 245px;
+        height: 245px;
+    }
+    .border-radius-forplay {
+        width: 300px;
+        height: 300px;
+    }
+    .play-first-video, .play-second-video {
+        left: 357px;
+    }
+    .play-first-video {
+        top: 485px;
+    }
+    .play-second-video {
+        top: 995px;
+    }
+    .finished-object {
+        top: 1423px;
+    }
+    .interior-arrow {
+        top: 1383px;
+        left: 860px;
+    }
 }
  
 
@@ -1888,6 +2054,67 @@ body {
     .about-us-subsubtitle2 {
         top: 311px;
 }
+
+
+    .interior-arrow {
+        display: none;
+    }
+    .interior-arrow-mini {
+        display: block;
+    }
+    .interior-arrow-mini, .interior-videos, .interior-for-u, .same-like-plan, .first-video, .second-video, .play-first-video, .play-second-video, .finished-object {
+        position: absolute;
+    }
+    .interior-videos {
+        top: 9347px;
+    }
+    .interior-for-u, .same-like-plan, .first-video, .second-video, .finished-object {
+        left: 50px;
+    }
+    .first-video, .second-video {
+        margin-right: 50px;
+    }
+    .interior-for-u {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .same-like-plan {
+        top: 175px;
+    }
+    .finished-object, .same-like-plan {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .first-video {
+        top: 339px;
+    }
+    .second-video {
+        top: 741px;
+    }
+    .border-radius-forplay {
+        width: 250px;
+        height: 250px;
+    }
+    .button-play {
+        width: 200px;
+        height: 200px;
+    }
+    .play-first-video, .play-second-video {
+        left: 256px;
+    }
+    .play-first-video {
+        top: 385px;
+    }
+    .play-second-video {
+        top: 788px;
+    }
+    .finished-object {
+        top: 1143px;
+    }
+    .interior-arrow-mini {
+        top: 1168px;
+        left: 640px;
+    }
 
 }
 
@@ -2386,10 +2613,67 @@ body {
         top: 702px;
     }
 
+
+    .interior-videos, .interior-for-u, .first-video-mini, .second-video-mini, .interior-arrow-mini, .finished-object, .play-first-video, .play-second-video {
+        position: absolute;
+    }
+    .interior-videos {
+        top: 10040px;
+    }
+    .interior-for-u { 
+        font-size: 32px;
+        line-height: 38px;
+        top: 0;
+        left: 42px;
+        width: 300px;
+    }
+    .first-video, .second-video, .button-play-main, .same-like-plan {
+        display: none;
+    }
+    .first-video-mini, .second-video-mini {
+        display: block;
+        left: 26px;
+    }
+    .button-play-mini {
+        display: block;
+    }
+    .first-video-mini {
+        top: 188px;
+    }
+    .second-video-mini {
+        top: 484px;
+    }
+    .interior-arrow-mini {
+        top: 797px;
+        left: 379px;
+    }
+    .finished-object {
+        font-size: 16px;
+        line-height: 24px;
+        top: 790px;
+        left: 42px;
+    }
+    .border-radius-forplay {
+        width: 150px;
+        height: 150px;
+    }
+    .button-play {
+        width: 120px;
+        height: 120px;
+    }
+    .play-first-video, .play-second-video {
+        left: 136px;
+    }
+    .play-first-video {
+        top: 253px;
+    }
+    .play-second-video {
+        top: 546px;
+    }
+
+
+
+
+
+
 }
-
-
-
-
-
-
