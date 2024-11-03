@@ -862,7 +862,7 @@ body {
 .border-radius-forplay {
     width: 372px;
     height: 372px;
-    border: 1px solid #333333CC;
+    border: 1px solid #333333;
 }
 .play-first-video, .play-second-video {
     left: 774px;
