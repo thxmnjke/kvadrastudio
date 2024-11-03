@@ -2799,6 +2799,36 @@ body {
     }
 
 
+    .interior-design {
+        top: 10950px;
+    }
+    .design-interior {
+        font-size: 32px;
+        line-height: 40px;
+        top: 50px;
+        left: 80px;
+    }
+    .four-components {
+        font-size: 16px;
+        line-height: 25px;
+        width: 283px;
+        top: 100px;
+        left: 66px;
+    }
+    .design-photos {
+        margin-top: 210px !important;
+        gap: 20px;
+    }
+    .design-name-services {
+        font-size: 28px;
+        line-height: 70px;
+        width: 290px;
+    }
+    .design-services {
+        top: 235px;
+        left: 70px;
+        gap: 77px;
+    }
 
 
 
