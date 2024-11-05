@@ -1826,6 +1826,39 @@ body {
         left: 245px;
         gap: 255px;
     }
+
+
+    .feedback, .feedback-form, .feedback-line, .feedback-background {
+        position: absolute;
+    }
+    .feedback {
+        top: 17106px;
+    }
+    .feedback-form {
+        width: 800px;
+        top: 170px;
+    }
+    .feedback-form, .feedback-background {
+        left: 100px;
+    }
+    .form-title {
+        padding: 50px 115px 0 121px;
+    }
+    .your-name, .your-feedback {
+        width: 700px;
+    }
+    .your-phone, .your-email {
+        width: 334px;
+    }
+    .button-submit-feedback {
+        width: 390px;
+    }
+    .feedback-line {
+        left: 953px;
+    }
+    .feedback-background {
+    }
+
 }
  
 
