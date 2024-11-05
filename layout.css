@@ -936,6 +936,9 @@ body {
 .feedback, .feedback-form, .feedback-ellipse, .feedback-background, .feedback-line {
     position: absolute;
 }
+.feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini {
+    display: none;
+}
 .feedback {
     width: 1920px;
     height: 1019px;
@@ -1856,8 +1859,7 @@ body {
     .feedback-line {
         left: 953px;
     }
-    .feedback-background {
-    }
+    
 
 }
  
@@ -2383,6 +2385,65 @@ body {
         line-height: 90px;
         width: 490px;
     }
+
+
+
+    .feedback, .feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini, .feedback-form
+    .feedback {
+        position: absolute;
+        top: 11816px;
+    }
+    .feedback-ellipse, .feedback-line, .feedback-background {
+        display: none;
+    }
+    .feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini {
+        display: block;
+    }
+    .feedback-ellipse-mini {
+        top: 45px;
+        left: 10px;
+    }
+    .feedback-background-mini {
+        top: 20px;
+        left: 409px;
+    }
+    .feedback-line-mini {
+        top: 10px;
+        left: 570px;
+        z-index: 1;
+    }
+    .feedback-form {
+        width: 550px;
+        height: 584px;
+        top: 100px;
+        left: 70px;
+    }
+    .form-title {
+        font-size: 54px;
+        line-height: 68px;
+        padding: 50px 79px 0 79px;
+    }
+    .your-name {
+        width: 518px;
+        margin: 50px 16px 0 16px;
+    }
+    .your-phone {
+        width: 249px;
+        margin: 50px 16px 0 16px;
+    }
+    .your-email {
+        width: 249px;
+        margin: 50px 16px 0 0 ;
+    }
+    .your-feedback {
+        width: 518px;
+        margin: 25px 16px 0 16px;
+
+    }
+    .button-submit-feedback {
+        margin: 24px 80px 24px 80px;
+    }
+
 
 }
 
