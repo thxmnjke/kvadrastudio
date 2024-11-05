@@ -932,6 +932,93 @@ body {
 }
 
 
+
+.feedback {
+    position: absolute;
+    top: 19133px;
+    left: 0;
+}
+.feedback-form {
+    width: 836px;
+    height: 685px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 234px;
+    left: 200px;
+    z-index: 2;
+}
+.feedback-ellipse {
+    position: absolute;
+    left: 80px;
+    z-index: 1;
+}
+.feedback-background {
+    position: absolute;
+    top: 100px;
+    left: 326px;
+}
+.feedback-line {
+    position: absolute;
+    top: 0;
+    left: 1550px;
+    z-index: 1;
+}
+.form-title {
+    font-size: 80px;
+    line-height: 97px;
+    color: #333;
+    text-transform: uppercase;
+    padding: 50px 135px 0 140px;
+}
+.your-name {
+    width: 736px;
+    height: 56px;
+    border: none;
+    border-bottom: 2px solid #897163;
+    margin: 50px 50px 0 50px;  
+}
+.your-name::placeholder, .your-phone::placeholder, .your-email::placeholder, .your-feedback::placeholder /* feedback ??? */{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0 0 30px;
+}
+.your-feedback::placeholder { /* я пока не понимаю один хуй поч размер не меняется, при том что если колор написать то цвет меняется и найти не могу, потому что вся инфа не о том */
+    font-size: 16px;
+    line-height: 24px;
+}
+.your-phone {
+    width: 353px;
+    height: 56px;
+    margin: 50px 30px 0 50px;
+    border: none;
+    border-bottom: 2px solid #897163;
+}
+.your-email {
+    width: 353px;
+    height: 56px;
+    margin: 50px 0 0 0;
+    border: none;
+    border-bottom: 2px solid #897163;
+}
+.your-feedback {
+    width: 736px;
+    height: 120px;
+    margin: 50px 0 0 50px;
+    border: none;
+    border-bottom: 2px solid #897163;
+    resize: none;
+}
+.button-submit-feedback {
+    width: 427px;
+    font-size: 18px;
+    line-height: 56px;
+    color: #fff;
+    background: #897163;
+    border: none;
+    margin: 50px 205px 50px 205px;
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
