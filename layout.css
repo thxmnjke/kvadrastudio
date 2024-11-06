@@ -932,6 +932,97 @@ body {
 }
 
 
+
+.feedback, .feedback-form, .feedback-ellipse, .feedback-background, .feedback-line {
+    position: absolute;
+}
+.feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini {
+    display: none;
+}
+.feedback {
+    width: 1920px;
+    height: 1019px;
+    top: 19133px;
+    left: 0;
+}
+.feedback-form {
+    width: 836px;
+    height: 685px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+    top: 234px;
+    left: 200px;
+    z-index: 2;
+}
+.feedback-ellipse {
+    left: 80px;
+    z-index: 1;
+}
+.feedback-background {
+    top: 100px;
+    left: 326px;
+}
+.feedback img {
+    max-width: 100%;
+    height: auto;
+}
+.feedback-line {
+    top: 0;
+    left: 1550px;
+    z-index: 1;
+}
+.form-title {
+    font-size: 80px;
+    line-height: 97px;
+    color: #333;
+    text-transform: uppercase;
+    padding: 50px 135px 0 140px;
+}
+.your-name, .your-feedback {
+    width: 736px;
+}
+.your-name {
+    height: 56px;
+    margin: 50px 50px 0 50px;  
+}
+.your-name::placeholder, .your-phone::placeholder, .your-email::placeholder, .your-feedback::placeholder /* feedback ??? */{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0 0 30px;
+}
+.your-feedback::placeholder { /* я пока не понимаю один хуй поч размер не меняется, при том что если колор написать то цвет меняется и найти не могу, потому что вся инфа не о том */
+    font-size: 16px;
+    line-height: 24px;
+}
+.your-name, .your-phone, .your-email, .your-feedback {
+    border: none;
+    border-bottom: 2px solid #897163;
+}
+.your-phone, .your-email {
+    width: 353px;
+    height: 56px;
+}
+.your-phone {
+    margin: 50px 30px 0 50px;
+}
+.your-email {
+    margin: 50px 0 0 0;
+}
+.your-feedback {
+    height: 120px;
+    margin: 50px 0 0 50px;
+    resize: none;
+}
+.button-submit-feedback {
+    width: 427px;
+    font-size: 18px;
+    line-height: 56px;
+    color: #fff;
+    background: #897163;
+    border: none;
+    margin: 50px 205px 50px 205px;
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
@@ -1278,6 +1369,26 @@ body {
     }
     .design-services {
         left: 380px;
+    }
+
+
+    .feedback, .feedback-ellipse, .feedback-form, .feedback-line, .feedback-background {
+        position: absolute;
+    }
+    .feedback {
+        top: 18374px;
+    }
+    .feedback-ellipse {
+        left: 50px;
+    }
+    .feedback-form {
+        left: 160px;
+    }
+    .feedback-line {
+        left: 1250px;
+    }
+    .feedback-background {
+        left: 240px;
     }
 
 }
@@ -1718,6 +1829,38 @@ body {
         left: 245px;
         gap: 255px;
     }
+
+
+    .feedback, .feedback-form, .feedback-line, .feedback-background {
+        position: absolute;
+    }
+    .feedback {
+        top: 17106px;
+    }
+    .feedback-form {
+        width: 800px;
+        top: 170px;
+    }
+    .feedback-form, .feedback-background {
+        left: 100px;
+    }
+    .form-title {
+        padding: 50px 115px 0 121px;
+    }
+    .your-name, .your-feedback {
+        width: 700px;
+    }
+    .your-phone, .your-email {
+        width: 334px;
+    }
+    .button-submit-feedback {
+        width: 390px;
+    }
+    .feedback-line {
+        left: 953px;
+    }
+    
+
 }
  
 
@@ -2242,6 +2385,65 @@ body {
         line-height: 90px;
         width: 490px;
     }
+
+
+
+    .feedback, .feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini, .feedback-form
+    .feedback {
+        position: absolute;
+        top: 11816px;
+    }
+    .feedback-ellipse, .feedback-line, .feedback-background {
+        display: none;
+    }
+    .feedback-ellipse-mini, .feedback-line-mini, .feedback-background-mini {
+        display: block;
+    }
+    .feedback-ellipse-mini {
+        top: 45px;
+        left: 10px;
+    }
+    .feedback-background-mini {
+        top: 20px;
+        left: 409px;
+    }
+    .feedback-line-mini {
+        top: 10px;
+        left: 570px;
+        z-index: 1;
+    }
+    .feedback-form {
+        width: 550px;
+        height: 584px;
+        top: 100px;
+        left: 70px;
+    }
+    .form-title {
+        font-size: 54px;
+        line-height: 68px;
+        padding: 50px 79px 0 79px;
+    }
+    .your-name {
+        width: 518px;
+        margin: 50px 16px 0 16px;
+    }
+    .your-phone {
+        width: 249px;
+        margin: 50px 16px 0 16px;
+    }
+    .your-email {
+        width: 249px;
+        margin: 50px 16px 0 0 ;
+    }
+    .your-feedback {
+        width: 518px;
+        margin: 25px 16px 0 16px;
+
+    }
+    .button-submit-feedback {
+        margin: 24px 80px 24px 80px;
+    }
+
 
 }
 
@@ -2831,6 +3033,69 @@ body {
     }
 
 
+    .feedback {
+        position: absolute;
+        top: 11637px;
+    }
+    .feedback-ellipse-mini {
+        display: block; 
+        position: absolute;
+        top: 0;
+        left: 32px;
+        z-index: 1;
+    }
+    .feedback-background-mini {
+        position: absolute;
+        top: 24px;
+        left: 32px;
+    }
+    .feedback-line-mini {
+        position: absolute;
+        top: 24px;
+        left: 343px;
+    }
+    .feedback-form {
+        width: 343px;
+        height: 320px;
+        position: absolute;
+        top: 248px;
+        left: 32px;
+    }
+    .form-title {
+        font-size: 32px;
+        line-height: 38px;
+        padding: 24px 54px 0 16px;
+    }
+    .your-name::placeholder, .your-phone::placeholder, .your-email::placeholder, .your-feedback::placeholder {
+        font-size: 14px;
+        padding: 0;
+    }
+    .your-name {
+        width: 311px;
+        height: 24px;
+        margin: 20px 16px 0 16px;
+    }
+    .your-phone {
+        width: 145px;
+        height: 24px;
+        margin: 24px 17px 0 16px;
+    }
+    .your-email {
+        width: 145px;
+        height: 24px;
+        margin: 24px 16px 0 0;
+    }
+    .your-feedback {
+        width: 312px;
+        height: 50px;
+        margin: 24px 16px 0 16px;
+    }
+    .button-submit-feedback {
+        width: 311px;
+        font-size: 14px;
+        line-height: 44px;
+        margin: 24px 16px;
+    }
 
 
 }
