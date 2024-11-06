@@ -875,6 +875,62 @@ body {
 }
 
 
+.interior-design, .design-interior, .four-components, .design-services {
+    position: absolute;
+}
+.interior-design {
+    width: 1920px;
+    height: 1914px;
+    background-color: #333;
+    top: 17304px;
+}
+.design-interior, .design-name-services {
+    color: #fff;
+    text-transform: uppercase;
+}
+.design-interior {
+    font-size: 80px;
+    line-height: 97px;
+    top: 100px;
+    left: 645px;
+}
+.four-components {
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+    width: 974px;
+    text-align: center;
+    top: 217px;
+    left: 481px;
+}
+.design-photos, .design-services {
+    display: flex;
+    flex-direction: column;
+}
+.design-photos {
+    margin-top: 417px !important;
+    width: 1920px;
+    height: 1397px;
+    gap: 100px;
+}
+.design-name-services {
+    font-size: 60px;
+    line-height: 140px;
+    width: 680px;
+    background: rgba(51, 51, 51, 0.8);
+    border: 1px solid #FCFCFC;
+    text-align: center;
+}
+.design-services {
+    gap: 359px;
+    top: 535px;
+    left: 615px;
+}
+.design-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
@@ -1208,6 +1264,20 @@ body {
     .interior-arrow {
         top: 1871px;
         left: 1190px;
+    }
+
+
+    .interior-design {
+        top: 16545px;
+    }
+    .design-interior {
+        left: 412px;
+    }
+    .four-components {
+        left: 262px;
+    }
+    .design-services {
+        left: 380px;
     }
 
 }
@@ -1617,6 +1687,36 @@ body {
     .interior-arrow {
         top: 1383px;
         left: 860px;
+    }
+
+
+    .interior-design {
+        top: 15721px;
+    }
+    .design-interior {
+        font-size: 60px;
+        line-height: 80px;
+        top: 50px;
+        left: 275px;
+    }
+    .four-components {
+        width: 830px;
+        top: 187px;
+        left: 108px;
+    }
+    .design-photos {
+        margin-top: 378px !important;
+        gap: 50px;
+    }
+    .design-name-services {
+        font-size: 48px;
+        line-height: 100px;
+        width: 575px;
+    }
+    .design-services {
+        top: 475px;
+        left: 245px;
+        gap: 255px;
     }
 }
  
@@ -2114,6 +2214,33 @@ body {
     .interior-arrow-mini {
         top: 1168px;
         left: 640px;
+    }
+
+
+    .interior-design {
+        top: 10654px;
+    }
+    .design-interior {
+        font-size: 40px;
+        line-height: 60px;
+        left: 225px;
+    }
+    .four-components {
+        font-size: 26px;
+        line-height: 44px;
+        width: 600px;
+        top: 135px;
+        left: 85px;
+    }
+    .design-services {
+        top: 437px;
+        left: 147px;
+        gap: 190px;
+    }
+    .design-name-services {
+        font-size: 40px;
+        line-height: 90px;
+        width: 490px;
     }
 
 }
@@ -2672,6 +2799,36 @@ body {
     }
 
 
+    .interior-design {
+        top: 10950px;
+    }
+    .design-interior {
+        font-size: 32px;
+        line-height: 40px;
+        top: 50px;
+        left: 80px;
+    }
+    .four-components {
+        font-size: 16px;
+        line-height: 25px;
+        width: 283px;
+        top: 100px;
+        left: 66px;
+    }
+    .design-photos {
+        margin-top: 210px !important;
+        gap: 20px;
+    }
+    .design-name-services {
+        font-size: 28px;
+        line-height: 70px;
+        width: 290px;
+    }
+    .design-services {
+        top: 235px;
+        left: 70px;
+        gap: 77px;
+    }
 
 
 
