@@ -1969,6 +1969,49 @@ section {
     }
     
 
+    .footer {
+        width: 1024px;
+        height: 398px;
+        top: 18063px;
+        z-index: 1;
+        gap: 24px;
+    }
+    .studia-kvadra {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .studia-dizaina {
+        margin-top: 0 !important;
+    }
+    .info {
+        margin-top: 45px;
+        margin-right: 50px;
+    }
+    .footer-plan {
+        top: 192px;
+        left: 50px;
+    }
+    .dizain {
+        width: 143px;
+    }
+    .dizain p, .uslugi p, .info p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .call-me {
+        width: 205px;
+    }
+    .subsubtitle {
+        margin-top: 50px !important;
+    }
+    .create-site {
+        margin-top: 74px !important;
+    }
+    .footer-line {
+        top: -125px;
+        left: 525px;
+    }
+
 }
  
 
