@@ -1481,6 +1481,24 @@ section {
         left: 240px;
     }
 
+    .footer {
+        top: 19394px;
+        width: 1440px;
+        gap: 72px;
+    }
+    .footer-plan {
+        left: 100px;
+    }
+    .studia-kvadra {
+        margin-left: 100px;
+    }
+    .footer-line {
+        left: 448px;
+    }
+    .info {
+        margin-right: 100px;
+    }
+
 }
 
 
