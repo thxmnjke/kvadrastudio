@@ -2596,6 +2596,65 @@ section {
     }
 
 
+    .subsubtitle {
+        display: none;
+    }
+    .subsubtitle-info, .kvadra-logo-mini {
+        display: block;
+    }
+    .footer {
+        width: 768px;
+        height: 990px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        top: 12550px;
+    }
+    section {
+        gap: 20px;
+    }
+    .kvadra-logo {
+        display: none;
+    }
+    .studia-kvadra {
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+    .kvadra-logo-mini {
+        margin-left: 16px;
+    }
+    .studia-dizaina {
+        margin-top: 40px;
+    }
+    .dizain, .uslugi, .info {
+        margin: 0;
+    }
+    .footer-plan-mini {
+        position: absolute;
+        top: 108px;
+        left: 334px;
+    }
+    .dizain, .uslugi, .info, .subsubtitle-info {
+        margin-left: 32px;
+    }
+    .call-me {
+        width: 361px;
+    }
+    .subsubtitle-info {
+        display: flex;
+        gap: 12px;
+        padding-bottom: 24px;
+    }
+    .footer-line {
+        top: 0;
+        left: 405px;
+    }
+    .footer-plan {
+        top: 28px;
+        left: 430px;
+    }
+
+
 }
 
 
