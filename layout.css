@@ -1024,8 +1024,10 @@ body {
 }
 
 
-.footer-plan {
+.footer-plan, .footer-line {
     position: absolute;
+}
+.footer-plan {
     top: 298px;
     left: 200px;
 }
@@ -1065,7 +1067,6 @@ body {
     margin-top: 60px !important;
 }
 .title {
-    color: #999;
     font-size: 18px;
     line-height: 26px;
 }
@@ -1089,13 +1090,12 @@ section {
     padding: 10px 30px;
     text-align: center;
 }
-.adress, .time {
+.adress, .time, .subsubtitle, .title {
     color: #999
 }
 .subsubtitle {
     font-size: 14px;
     line-height: 24px;
-    color: #999;
     margin-top: 100px !important;
 }
 .create-site {
@@ -1105,7 +1105,6 @@ section {
     margin-top: 72px;
 }
 .footer-line {
-    position: absolute;
     top: 66px;
     left: 586px;
 }
@@ -2596,25 +2595,24 @@ section {
     }
 
 
-    .subsubtitle {
+    .subsubtitle, .kvadra-logo {
         display: none;
     }
     .subsubtitle-info, .kvadra-logo-mini {
         display: block;
     }
+    .footer, .subsubtitle-info {
+        display: flex;
+    }
     .footer {
         width: 768px;
         height: 990px;
-        display: flex;
         flex-direction: column;
         gap: 50px;
         top: 12550px;
     }
     section {
         gap: 20px;
-    }
-    .kvadra-logo {
-        display: none;
     }
     .studia-kvadra {
         margin-left: 16px;
@@ -2641,7 +2639,6 @@ section {
         width: 361px;
     }
     .subsubtitle-info {
-        display: flex;
         gap: 12px;
         padding-bottom: 24px;
     }
@@ -3307,23 +3304,26 @@ section {
         margin: 24px 16px;
     }
 
-    .subsubtitle {
-        display: none;
-    }
+
+
+    
     .subsubtitle-info, .kvadra-logo-mini, .footer-plan-mini {
         display: block;
     }
     .footer {
         width: 425px;
-        height: 1057px;
-        display: flex;
+        height: 1087px;
         flex-direction: column;
         gap: 50px;
+        top: 12255px;
+    }
+    .footer, .subsubtitle-info {
+        display: flex;
     }
     section {
         gap: 20px;
     }
-    .footer-line, .footer-plan, .kvadra-logo {
+    .footer-line, .footer-plan, .kvadra-logo, .subsubtitle {
         display: none;
     }
     .studia-kvadra {
@@ -3351,7 +3351,6 @@ section {
         width: 361px;
     }
     .subsubtitle-info {
-        display: flex;
         gap: 12px;
         padding-bottom: 24px;
     }
