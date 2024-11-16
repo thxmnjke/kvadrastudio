@@ -1048,20 +1048,20 @@ body {
 .info {
     margin-right: 200px;
 }
-.dizain {
+.footer-design {
     width: 161px;
 }
-.dizain, .uslugi {
+.footer-design, .footer-services {
     margin-top: 50px;
 }
 .info {
     margin-top: 77px;
 }
-.studia-kvadra p, .dizain p, .uslugi p, .info p, .subsubtitle-info p {
+.studia-kvadra p, .footer-design p, .footer-services p, .info p, .subsubtitle-info p {
     color: #fff;
     margin: 0;
 }
-.studia-dizaina {
+.studia-of-design {
     font-size: 16px;
     line-height: 24px;
     margin-top: 60px !important;
@@ -1076,12 +1076,11 @@ body {
     line-height: 26px;
     text-transform: uppercase;
 }
-section {
+.footer-section {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     gap: 25px;
-    margin: 0;
 }
 .call-me {
     width: 298px;
@@ -1979,7 +1978,7 @@ section {
         margin-top: 50px;
         margin-left: 50px;
     }
-    .studia-dizaina {
+    .studia-of-design {
         margin-top: 0 !important;
     }
     .info {
@@ -1990,10 +1989,10 @@ section {
         top: 192px;
         left: 50px;
     }
-    .dizain {
+    .footer-design {
         width: 143px;
     }
-    .dizain p, .uslugi p, .info p {
+    .footer-design p, .footer-services p, .info p {
         font-size: 13px;
         line-height: 20px;
     }
@@ -2611,7 +2610,7 @@ section {
         gap: 50px;
         top: 12550px;
     }
-    section {
+    .footer-section {
         gap: 20px;
     }
     .studia-kvadra {
@@ -2621,10 +2620,10 @@ section {
     .kvadra-logo-mini {
         margin-left: 16px;
     }
-    .studia-dizaina {
+    .studia-of-design {
         margin-top: 40px;
     }
-    .dizain, .uslugi, .info {
+    .footer-design, .footer-services, .info {
         margin: 0;
     }
     .footer-plan-mini {
@@ -2632,7 +2631,7 @@ section {
         top: 108px;
         left: 334px;
     }
-    .dizain, .uslugi, .info, .subsubtitle-info {
+    .footer-design, .footer-services, .info, .subsubtitle-info {
         margin-left: 32px;
     }
     .call-me {
@@ -3312,7 +3311,7 @@ section {
     }
     .footer {
         width: 425px;
-        height: 1087px;
+        height: 1048px;
         flex-direction: column;
         gap: 50px;
         top: 12255px;
@@ -3320,7 +3319,7 @@ section {
     .footer, .subsubtitle-info {
         display: flex;
     }
-    section {
+    .footer-section {
         gap: 20px;
     }
     .footer-line, .footer-plan, .kvadra-logo, .subsubtitle {
@@ -3333,10 +3332,10 @@ section {
     .kvadra-logo-mini {
         margin-left: 16px;
     }
-    .studia-dizaina {
-        margin-top: 40px;
+    .studia-of-design {
+        margin-top: 40px !important;
     }
-    .dizain, .uslugi, .info {
+    .footer-design, .footer-services, .info {
         margin: 0;
     }
     .footer-plan-mini {
@@ -3344,7 +3343,7 @@ section {
         top: 108px;
         left: 334px;
     }
-    .dizain, .uslugi, .info, .subsubtitle-info {
+    .footer-design, .footer-services, .info, .subsubtitle-info {
         margin-left: 32px;
     }
     .call-me {
