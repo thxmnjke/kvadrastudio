@@ -1023,6 +1023,94 @@ body {
     margin: 50px 205px 50px 205px;
 }
 
+
+.footer-plan, .footer-line {
+    position: absolute;
+}
+.footer-plan {
+    top: 298px;
+    left: 200px;
+}
+.footer {
+    width: 1920px;
+    height: 504px;
+    background-color: #333;
+    position: relative;
+    top: 20154px;
+    display: flex;
+    gap: 145px;
+}
+
+.studia-kvadra {
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.info {
+    margin-right: 200px;
+}
+.footer-design {
+    width: 161px;
+}
+.footer-design, .footer-services {
+    margin-top: 50px;
+}
+.info {
+    margin-top: 77px;
+}
+.studia-kvadra p, .footer-design p, .footer-services p, .info p, .subsubtitle-info p {
+    color: #fff;
+    margin: 0;
+}
+.studia-of-design {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 60px !important;
+}
+.title {
+    font-size: 18px;
+    line-height: 26px;
+}
+.subtitle {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 25px;
+}
+.call-me {
+    width: 298px;
+    height: 46px;
+    border: 2px solid #897163;
+    padding: 10px 30px;
+    text-align: center;
+}
+.adress, .time, .subsubtitle, .title {
+    color: #999
+}
+.subsubtitle {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 100px !important;
+}
+.create-site {
+    margin-top: 121px !important;
+}
+.politika-konfid {
+    margin-top: 72px;
+}
+.footer-line {
+    top: 66px;
+    left: 586px;
+}
+.subsubtitle-info, .kvadra-logo-mini, .footer-plan-mini {
+    display: none;
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .frame-1-word {
         font-size: 50px;
@@ -1389,6 +1477,24 @@ body {
     }
     .feedback-background {
         left: 240px;
+    }
+
+    .footer {
+        top: 19394px;
+        width: 1440px;
+        gap: 72px;
+    }
+    .footer-plan {
+        left: 100px;
+    }
+    .studia-kvadra {
+        margin-left: 100px;
+    }
+    .footer-line {
+        left: 448px;
+    }
+    .info {
+        margin-right: 100px;
     }
 
 }
@@ -1860,6 +1966,49 @@ body {
         left: 953px;
     }
     
+
+    .footer {
+        width: 1024px;
+        height: 398px;
+        top: 18063px;
+        z-index: 1;
+        gap: 24px;
+    }
+    .studia-kvadra {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .studia-of-design {
+        margin-top: 0 !important;
+    }
+    .info {
+        margin-top: 45px;
+        margin-right: 50px;
+    }
+    .footer-plan {
+        top: 192px;
+        left: 50px;
+    }
+    .footer-design {
+        width: 143px;
+    }
+    .footer-design p, .footer-services p, .info p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .call-me {
+        width: 205px;
+    }
+    .subsubtitle {
+        margin-top: 50px !important;
+    }
+    .create-site {
+        margin-top: 74px !important;
+    }
+    .footer-line {
+        top: -125px;
+        left: 525px;
+    }
 
 }
  
@@ -2442,6 +2591,63 @@ body {
     }
     .button-submit-feedback {
         margin: 24px 80px 24px 80px;
+    }
+
+
+    .subsubtitle, .kvadra-logo {
+        display: none;
+    }
+    .subsubtitle-info, .kvadra-logo-mini {
+        display: block;
+    }
+    .footer, .subsubtitle-info {
+        display: flex;
+    }
+    .footer {
+        width: 768px;
+        height: 990px;
+        flex-direction: column;
+        gap: 50px;
+        top: 12550px;
+    }
+    .footer-section {
+        gap: 20px;
+    }
+    .studia-kvadra {
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+    .kvadra-logo-mini {
+        margin-left: 16px;
+    }
+    .studia-of-design {
+        margin-top: 40px;
+    }
+    .footer-design, .footer-services, .info {
+        margin: 0;
+    }
+    .footer-plan-mini {
+        position: absolute;
+        top: 108px;
+        left: 334px;
+    }
+    .footer-design, .footer-services, .info, .subsubtitle-info {
+        margin-left: 32px;
+    }
+    .call-me {
+        width: 361px;
+    }
+    .subsubtitle-info {
+        gap: 12px;
+        padding-bottom: 24px;
+    }
+    .footer-line {
+        top: 0;
+        left: 405px;
+    }
+    .footer-plan {
+        top: 28px;
+        left: 430px;
     }
 
 
@@ -3095,6 +3301,57 @@ body {
         font-size: 14px;
         line-height: 44px;
         margin: 24px 16px;
+    }
+
+
+
+    
+    .subsubtitle-info, .kvadra-logo-mini, .footer-plan-mini {
+        display: block;
+    }
+    .footer {
+        width: 425px;
+        height: 1048px;
+        flex-direction: column;
+        gap: 50px;
+        top: 12255px;
+    }
+    .footer, .subsubtitle-info {
+        display: flex;
+    }
+    .footer-section {
+        gap: 20px;
+    }
+    .footer-line, .footer-plan, .kvadra-logo, .subsubtitle {
+        display: none;
+    }
+    .studia-kvadra {
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+    .kvadra-logo-mini {
+        margin-left: 16px;
+    }
+    .studia-of-design {
+        margin-top: 40px !important;
+    }
+    .footer-design, .footer-services, .info {
+        margin: 0;
+    }
+    .footer-plan-mini {
+        position: absolute;
+        top: 108px;
+        left: 334px;
+    }
+    .footer-design, .footer-services, .info, .subsubtitle-info {
+        margin-left: 32px;
+    }
+    .call-me {
+        width: 361px;
+    }
+    .subsubtitle-info {
+        gap: 12px;
+        padding-bottom: 24px;
     }
 
 
